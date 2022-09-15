@@ -1,163 +1,115 @@
-# port of HTTP
 port: 7890
-
-# port of SOCKS5
 socks-port: 7891
-
-# (HTTP and SOCKS5 in one port)
-# mixed-port: 7890
-
-# redir port for Linux and macOS
-# redir-port: 7892
-
-allow-lan: false
-mode: rule
+allow-lan: true
+mode: Rule
 log-level: info
-external-controller: 127.0.0.1:9090
-
+external-controller: 0.0.0.0:9090
 proxies:
-- {name: trojan1, server: trojan.wefuckgfw.gq, port: 443, type: trojan, password: MCgduPCh, skip-cert-verify: false}
-- {name: tr0jan2, server: tr0jan.wefuckgfw.gq, port: 443, type: trojan, password: vUfPelJP, skip-cert-verify: false}
-- {name: trojan3, server: trojan.wefuckgfw.gq, port: 443, type: trojan, password: ZrCydelG, skip-cert-verify: false}
-- {name: tr0jan4, server: tr0jan.wefuckgfw.gq, port: 443, type: trojan, password: KKaKzuWt, skip-cert-verify: false}
-- {name: trojan5, server: trojan.wefuckgfw.gq, port: 443, type: trojan, password: zYHVjOCA, skip-cert-verify: false}
-- {name: trojan6, server: trojan.wefuckgfw.ga, port: 443, type: trojan, password: VznkqGtP, skip-cert-verify: false}
-- {name: tr0jan7, server: tr0jan.wefuckgfw.ga, port: 443, type: trojan, password: lmbfpIWO, skip-cert-verify: false}
-- {name: trojan8, server: trojan.wefuckgfw.ga, port: 443, type: trojan, password: yNQNtnyR, skip-cert-verify: false}
-- {name: tr0jan9, server: tr0jan.wefuckgfw.ga, port: 443, type: trojan, password: HpqwJoAP, skip-cert-verify: false}
-- {name: trojan10, server: trojan.wefuckgfw.ga, port: 443, type: trojan, password: fihTNOjj, skip-cert-verify: false}
-- {name: xray1, server: xray.wefuckgfw.gq, port: 2053, type: vless, uuid: e7dcba00-e6ef-47e1-9efd-1b10b3ced626, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /iy5ESGIu/, headers: {Host: xray.wefuckgfw.gq}}}
-- {name: xray2, server: xray.wefuckgfw.gq, port: 2053, type: vless, uuid: 86d63a0a-7995-42cd-8454-a7b246f89232, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /iy5ESGIu/, headers: {Host: xray.wefuckgfw.gq}}}
-- {name: xray3, server: xray.wefuckgfw.gq, port: 2053, type: vless, uuid: 43d218cd-ed88-4fa5-9e0c-96a6a0a4689d, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /iy5ESGIu/, headers: {Host: xray.wefuckgfw.gq}}}
-- {name: xray4, server: xray.wefuckgfw.gq, port: 2053, type: vless, uuid: 6f0a612b-2455-4568-b35b-7155020a0394, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /iy5ESGIu/, headers: {Host: xray.wefuckgfw.gq}}}
-- {name: xray5, server: xray.wefuckgfw.gq, port: 2053, type: vless, uuid: 3973776a-143d-465d-a393-10198004b007, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /iy5ESGIu/, headers: {Host: xray.wefuckgfw.gq}}}
-- {name: xray6, server: xray.wefuckgfw.ga, port: 2053, type: vless, uuid: 1176f026-7672-4e6c-9481-614f2683092e, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /LTJmcoEu/, headers: {Host: xray.wefuckgfw.ga}}}
-- {name: xray7, server: xray.wefuckgfw.ga, port: 2053, type: vless, uuid: a72e7f33-1029-4195-9a31-f54d560a7451, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /LTJmcoEu/, headers: {Host: xray.wefuckgfw.ga}}}
-- {name: xray8, server: xray.wefuckgfw.ga, port: 2053, type: vless, uuid: d505224b-1c0f-4304-8644-2c3542c27926, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /LTJmcoEu/, headers: {Host: xray.wefuckgfw.ga}}}
-- {name: xray9, server: xray.wefuckgfw.ga, port: 2053, type: vless, uuid: 5960b291-74df-45bf-a05c-21e4a02e358e, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /LTJmcoEu/, headers: {Host: xray.wefuckgfw.ga}}}
-- {name: xray10, server: xray.wefuckgfw.ga, port: 2053, type: vless, uuid: b2fb1607-5e1e-4505-af04-475c458687a0, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /LTJmcoEu/, headers: {Host: xray.wefuckgfw.ga}}}
-- {name: v2ray1, server: v2ray.wefuckgfw.gq, port: 2096, type: vmess, uuid: 9462d5f7-cce9-4263-9084-1f495bafa355, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Nsy6wz4A/, headers: {Host: v2ray.wefuckgfw.gq}}}
-- {name: v2ray2, server: v2ray.wefuckgfw.gq, port: 2096, type: vmess, uuid: 8f1a3746-c4d5-4027-8070-a53a04c1b155, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Nsy6wz4A/, headers: {Host: v2ray.wefuckgfw.gq}}}
-- {name: v2ray3, server: v2ray.wefuckgfw.gq, port: 2096, type: vmess, uuid: f7be5288-0e6d-47a5-8470-3c08ae5911a5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Nsy6wz4A/, headers: {Host: v2ray.wefuckgfw.gq}}}
-- {name: v2ray4, server: v2ray.wefuckgfw.gq, port: 2096, type: vmess, uuid: 6d8ab963-1fe6-48af-9e00-ac2585cbee48, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Nsy6wz4A/, headers: {Host: v2ray.wefuckgfw.gq}}}
-- {name: v2ray5, server: v2ray.wefuckgfw.gq, port: 2096, type: vmess, uuid: 660d4439-49ca-41f6-80aa-1dc9ff451903, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Nsy6wz4A/, headers: {Host: v2ray.wefuckgfw.gq}}}
-- {name: v2ray6, server: v2ray.wefuckgfw.ga, port: 2096, type: vmess, uuid: dafdb36b-9e15-4d21-aebf-312ef001c7f6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /H8VswtUJ/, headers: {Host: v2ray.wefuckgfw.ga}}}
-- {name: v2ray7, server: v2ray.wefuckgfw.ga, port: 2096, type: vmess, uuid: 8e5c63cf-e162-48ef-ac2f-f43711dd169f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /H8VswtUJ/, headers: {Host: v2ray.wefuckgfw.ga}}}
-- {name: v2ray8, server: v2ray.wefuckgfw.ga, port: 2096, type: vmess, uuid: 400cbd6d-33b2-430c-9914-d3008056f92b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /H8VswtUJ/, headers: {Host: v2ray.wefuckgfw.ga}}}
-- {name: v2ray9, server: v2ray.wefuckgfw.ga, port: 2096, type: vmess, uuid: 0c95afc1-3b28-4625-a973-6053f4404599, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /H8VswtUJ/, headers: {Host: v2ray.wefuckgfw.ga}}}
-- {name: v2ray10, server: v2ray.wefuckgfw.ga, port: 2096, type: vmess, uuid: cc71185e-88a2-4364-8610-4006dc1a80a4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /H8VswtUJ/, headers: {Host: v2ray.wefuckgfw.ga}}}
-
+  - {"type":"trojan","name":"trojan.wefuckgfw.gq:443_1","server":"trojan.wefuckgfw.gq","port":443,"password":"MCgduPCh","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"tr0jan.wefuckgfw.gq:443_1","server":"tr0jan.wefuckgfw.gq","port":443,"password":"vUfPelJP","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"trojan.wefuckgfw.gq:443_2","server":"trojan.wefuckgfw.gq","port":443,"password":"ZrCydelG","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"tr0jan.wefuckgfw.gq:443_2","server":"tr0jan.wefuckgfw.gq","port":443,"password":"KKaKzuWt","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"trojan.wefuckgfw.gq:443_3","server":"trojan.wefuckgfw.gq","port":443,"password":"zYHVjOCA","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"trojan.wefuckgfw.ga:443_1","server":"trojan.wefuckgfw.ga","port":443,"password":"VznkqGtP","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"tr0jan.wefuckgfw.ga:443_1","server":"tr0jan.wefuckgfw.ga","port":443,"password":"lmbfpIWO","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"trojan.wefuckgfw.ga:443_2","server":"trojan.wefuckgfw.ga","port":443,"password":"yNQNtnyR","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"tr0jan.wefuckgfw.ga:443_2","server":"tr0jan.wefuckgfw.ga","port":443,"password":"HpqwJoAP","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"trojan.wefuckgfw.ga:443_3","server":"trojan.wefuckgfw.ga","port":443,"password":"fihTNOjj","udp":true,"skip-cert-verify":true}
+  - {"type":"vless","name":"xray.wefuckgfw.gq:2053_1","server":"xray.wefuckgfw.gq","port":2053,"uuid":"e7dcba00-e6ef-47e1-9efd-1b10b3ced626","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/iy5ESGIu/"}}
+  - {"type":"vless","name":"xray.wefuckgfw.gq:2053_2","server":"xray.wefuckgfw.gq","port":2053,"uuid":"86d63a0a-7995-42cd-8454-a7b246f89232","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/iy5ESGIu/"}}
+  - {"type":"vless","name":"xray.wefuckgfw.gq:2053_3","server":"xray.wefuckgfw.gq","port":2053,"uuid":"43d218cd-ed88-4fa5-9e0c-96a6a0a4689d","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/iy5ESGIu/"}}
+  - {"type":"vless","name":"xray.wefuckgfw.gq:2053_4","server":"xray.wefuckgfw.gq","port":2053,"uuid":"6f0a612b-2455-4568-b35b-7155020a0394","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/iy5ESGIu/"}}
+  - {"type":"vless","name":"xray.wefuckgfw.gq:2053_5","server":"xray.wefuckgfw.gq","port":2053,"uuid":"3973776a-143d-465d-a393-10198004b007","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/iy5ESGIu/"}}
+  - {"type":"vless","name":"xray.wefuckgfw.ga:2053_1","server":"xray.wefuckgfw.ga","port":2053,"uuid":"1176f026-7672-4e6c-9481-614f2683092e","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/LTJmcoEu/"}}
+  - {"type":"vless","name":"xray.wefuckgfw.ga:2053_2","server":"xray.wefuckgfw.ga","port":2053,"uuid":"a72e7f33-1029-4195-9a31-f54d560a7451","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/LTJmcoEu/"}}
+  - {"type":"vless","name":"xray.wefuckgfw.ga:2053_3","server":"xray.wefuckgfw.ga","port":2053,"uuid":"d505224b-1c0f-4304-8644-2c3542c27926","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/LTJmcoEu/"}}
+  - {"type":"vless","name":"xray.wefuckgfw.ga:2053_4","server":"xray.wefuckgfw.ga","port":2053,"uuid":"5960b291-74df-45bf-a05c-21e4a02e358e","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/LTJmcoEu/"}}
+  - {"type":"vless","name":"xray.wefuckgfw.ga:2053_5","server":"xray.wefuckgfw.ga","port":2053,"uuid":"b2fb1607-5e1e-4505-af04-475c458687a0","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/LTJmcoEu/"}}
+  - {"type":"vmess","name":"v2ray.wefuckgfw.gq:2096_1","ws-opts":{"path":"/Nsy6wz4A/"},"server":"v2ray.wefuckgfw.gq","port":2096,"uuid":"9462d5f7-cce9-4263-9084-1f495bafa355","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"v2ray.wefuckgfw.gq:2096_2","ws-opts":{"path":"/Nsy6wz4A/"},"server":"v2ray.wefuckgfw.gq","port":2096,"uuid":"8f1a3746-c4d5-4027-8070-a53a04c1b155","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"v2ray.wefuckgfw.gq:2096_3","ws-opts":{"path":"/Nsy6wz4A/"},"server":"v2ray.wefuckgfw.gq","port":2096,"uuid":"f7be5288-0e6d-47a5-8470-3c08ae5911a5","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"v2ray.wefuckgfw.gq:2096_4","ws-opts":{"path":"/Nsy6wz4A/"},"server":"v2ray.wefuckgfw.gq","port":2096,"uuid":"6d8ab963-1fe6-48af-9e00-ac2585cbee48","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"v2ray.wefuckgfw.gq:2096_5","ws-opts":{"path":"/Nsy6wz4A/"},"server":"v2ray.wefuckgfw.gq","port":2096,"uuid":"660d4439-49ca-41f6-80aa-1dc9ff451903","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"v2ray.wefuckgfw.ga:2096_1","ws-opts":{"path":"/H8VswtUJ/"},"server":"v2ray.wefuckgfw.ga","port":2096,"uuid":"dafdb36b-9e15-4d21-aebf-312ef001c7f6","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"v2ray.wefuckgfw.ga:2096_2","ws-opts":{"path":"/H8VswtUJ/"},"server":"v2ray.wefuckgfw.ga","port":2096,"uuid":"8e5c63cf-e162-48ef-ac2f-f43711dd169f","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"v2ray.wefuckgfw.ga:2096_3","ws-opts":{"path":"/H8VswtUJ/"},"server":"v2ray.wefuckgfw.ga","port":2096,"uuid":"400cbd6d-33b2-430c-9914-d3008056f92b","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"v2ray.wefuckgfw.ga:2096_4","ws-opts":{"path":"/H8VswtUJ/"},"server":"v2ray.wefuckgfw.ga","port":2096,"uuid":"0c95afc1-3b28-4625-a973-6053f4404599","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"v2ray.wefuckgfw.ga:2096_5","ws-opts":{"path":"/H8VswtUJ/"},"server":"v2ray.wefuckgfw.ga","port":2096,"uuid":"cc71185e-88a2-4364-8610-4006dc1a80a4","alterId":0,"cipher":"auto","network":"ws","tls":true}
 proxy-groups:
   - name: 全局选择
-      type: select
+    type: select
     proxies:
-      - trojan1
-      - trojan2
-      - trojan3
-      - trojan4
-      - trojan5
-      - trojan6
-      - trojan7
-      - trojan8
-      - trojan9
-      - trojan10
-      - xray1
-      - xray2
-      - xray3
-      - xray4
-      - xray5
-      - xray6
-      - xray7
-      - xray8
-      - xray9
-      - xray10
-      - v2ray1
-      - v2ray2
-      - v2ray3
-      - v2ray4
-      - v2ray5
-      - v2ray6
-      - v2ray7
-      - v2ray8
-      - v2ray9
-      - v2ray10
+      - 延迟最低
+      - DIRECT
+      - trojan.wefuckgfw.gq:443_1
+      - tr0jan.wefuckgfw.gq:443_1
+      - trojan.wefuckgfw.gq:443_2
+      - tr0jan.wefuckgfw.gq:443_2
+      - trojan.wefuckgfw.gq:443_3
+      - trojan.wefuckgfw.ga:443_1
+      - tr0jan.wefuckgfw.ga:443_1
+      - trojan.wefuckgfw.ga:443_2
+      - tr0jan.wefuckgfw.ga:443_2
+      - trojan.wefuckgfw.ga:443_3
+      - xray.wefuckgfw.gq:2053_1
+      - xray.wefuckgfw.gq:2053_2
+      - xray.wefuckgfw.gq:2053_3
+      - xray.wefuckgfw.gq:2053_4
+      - xray.wefuckgfw.gq:2053_5
+      - xray.wefuckgfw.ga:2053_1
+      - xray.wefuckgfw.ga:2053_2
+      - xray.wefuckgfw.ga:2053_3
+      - xray.wefuckgfw.ga:2053_4
+      - xray.wefuckgfw.ga:2053_5
+      - v2ray.wefuckgfw.gq:2096_1
+      - v2ray.wefuckgfw.gq:2096_2
+      - v2ray.wefuckgfw.gq:2096_3
+      - v2ray.wefuckgfw.gq:2096_4
+      - v2ray.wefuckgfw.gq:2096_5
+      - v2ray.wefuckgfw.ga:2096_1
+      - v2ray.wefuckgfw.ga:2096_2
+      - v2ray.wefuckgfw.ga:2096_3
+      - v2ray.wefuckgfw.ga:2096_4
+      - v2ray.wefuckgfw.ga:2096_5
   - name: 延迟最低
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - trojan1
-      - trojan2
-      - trojan3
-      - trojan4
-      - trojan5
-      - trojan6
-      - trojan7
-      - trojan8
-      - trojan9
-      - trojan10
-      - xray1
-      - xray2
-      - xray3
-      - xray4
-      - xray5
-      - xray6
-      - xray7
-      - xray8
-      - xray9
-      - xray10
-      - v2ray1
-      - v2ray2
-      - v2ray3
-      - v2ray4
-      - v2ray5
-      - v2ray6
-      - v2ray7
-      - v2ray8
-      - v2ray9
-      - v2ray10
-  - name: 选择节点
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
-      - trojan1
-      - trojan2
-      - trojan3
-      - trojan4
-      - trojan5
-      - trojan6
-      - trojan7
-      - trojan8
-      - trojan9
-      - trojan10
-      - xray1
-      - xray2
-      - xray3
-      - xray4
-      - xray5
-      - xray6
-      - xray7
-      - xray8
-      - xray9
-      - xray10
-      - v2ray1
-      - v2ray2
-      - v2ray3
-      - v2ray4
-      - v2ray5
-      - v2ray6
-      - v2ray7
-      - v2ray8
-      - v2ray9
-      - v2ray10
-  - name: 全局选择
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
+      - trojan.wefuckgfw.gq:443_1
+      - tr0jan.wefuckgfw.gq:443_1
+      - trojan.wefuckgfw.gq:443_2
+      - tr0jan.wefuckgfw.gq:443_2
+      - trojan.wefuckgfw.gq:443_3
+      - trojan.wefuckgfw.ga:443_1
+      - tr0jan.wefuckgfw.ga:443_1
+      - trojan.wefuckgfw.ga:443_2
+      - tr0jan.wefuckgfw.ga:443_2
+      - trojan.wefuckgfw.ga:443_3
+      - xray.wefuckgfw.gq:2053_1
+      - xray.wefuckgfw.gq:2053_2
+      - xray.wefuckgfw.gq:2053_3
+      - xray.wefuckgfw.gq:2053_4
+      - xray.wefuckgfw.gq:2053_5
+      - xray.wefuckgfw.ga:2053_1
+      - xray.wefuckgfw.ga:2053_2
+      - xray.wefuckgfw.ga:2053_3
+      - xray.wefuckgfw.ga:2053_4
+      - xray.wefuckgfw.ga:2053_5
+      - v2ray.wefuckgfw.gq:2096_1
+      - v2ray.wefuckgfw.gq:2096_2
+      - v2ray.wefuckgfw.gq:2096_3
+      - v2ray.wefuckgfw.gq:2096_4
+      - v2ray.wefuckgfw.gq:2096_5
+      - v2ray.wefuckgfw.ga:2096_1
+      - v2ray.wefuckgfw.ga:2096_2
+      - v2ray.wefuckgfw.ga:2096_3
+      - v2ray.wefuckgfw.ga:2096_4
+      - v2ray.wefuckgfw.ga:2096_5
+  - name: DIRECT
+    type: select
+
 
 rules:
   - DOMAIN-SUFFIX,smtp,DIRECT
