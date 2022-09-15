@@ -40,7 +40,6 @@ proxy-groups:
     type: select
     proxies:
       - 延迟最低
-      - DIRECT
       - trojan.wefuckgfw.gq:443_1
       - tr0jan.wefuckgfw.gq:443_1
       - trojan.wefuckgfw.gq:443_2
@@ -76,45 +75,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
-    proxies:
-      - trojan.wefuckgfw.gq:443_1
-      - tr0jan.wefuckgfw.gq:443_1
-      - trojan.wefuckgfw.gq:443_2
-      - tr0jan.wefuckgfw.gq:443_2
-      - trojan.wefuckgfw.gq:443_3
-      - trojan.wefuckgfw.ga:443_1
-      - tr0jan.wefuckgfw.ga:443_1
-      - trojan.wefuckgfw.ga:443_2
-      - tr0jan.wefuckgfw.ga:443_2
-      - trojan.wefuckgfw.ga:443_3
-      - xray.wefuckgfw.gq:2053_1
-      - xray.wefuckgfw.gq:2053_2
-      - xray.wefuckgfw.gq:2053_3
-      - xray.wefuckgfw.gq:2053_4
-      - xray.wefuckgfw.gq:2053_5
-      - xray.wefuckgfw.ga:2053_1
-      - xray.wefuckgfw.ga:2053_2
-      - xray.wefuckgfw.ga:2053_3
-      - xray.wefuckgfw.ga:2053_4
-      - xray.wefuckgfw.ga:2053_5
-      - v2ray.wefuckgfw.gq:2096_1
-      - v2ray.wefuckgfw.gq:2096_2
-      - v2ray.wefuckgfw.gq:2096_3
-      - v2ray.wefuckgfw.gq:2096_4
-      - v2ray.wefuckgfw.gq:2096_5
-      - v2ray.wefuckgfw.ga:2096_1
-      - v2ray.wefuckgfw.ga:2096_2
-      - v2ray.wefuckgfw.ga:2096_3
-      - v2ray.wefuckgfw.ga:2096_4
-      - v2ray.wefuckgfw.ga:2096_5
-  - name: DIRECT
-    type: select
-
-
 rules:
   - DOMAIN-SUFFIX,smtp,DIRECT
   - DOMAIN-KEYWORD,aria2,DIRECT
-
   - DOMAIN-SUFFIX,ampproject.org,全局选择
   - DOMAIN-SUFFIX,appspot.com,全局选择
   - DOMAIN-SUFFIX,blogger.com,全局选择
