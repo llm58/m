@@ -5,6 +5,175 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
+  - {"type":"vmess","name":"default_name_1","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"lg1.cfcdn3.xyz"}},"server":"141.101.114.120","port":443,"uuid":"33aa57df-1c93-4318-9fce-e850437ee781","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"default_name_2","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"198.41.212.150","port":443,"uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇯🇵_JP_日本","ws-opts":{"path":"/chat","headers":{"host":"vjp3.0bad.com"}},"server":"vjp3.0bad.com","port":443,"uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸_US_美国_1","ws-opts":{"path":"/chat","headers":{"host":"vde2.0bad.com"}},"server":"vde2.0bad.com","port":443,"uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇩🇪_DE_德国","ws-opts":{"path":"/chat","headers":{"host":"vde1.0bad.com"}},"server":"vde1.0bad.com","port":443,"uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇷🇺_RU_俄罗斯联邦->🇩🇪_DE_德国","server":"pf.napsternetv.com","port":34147,"uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":0,"cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","name":"🇺🇸_US_美国_2","ws-opts":{"path":"/bxfbvws","headers":{"host":"h5528.1808.cf"}},"server":"cf.731808.tk","port":443,"uuid":"8194f724-d648-4eb8-98d2-0013136e79f0","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇯🇵_JP_日本->🇮🇩_ID_印度尼西亚","ws-opts":{"path":"/v2ray","headers":{"host":"idnusa2.vpn-akcelluler.my.id"}},"server":"47.74.43.158","port":443,"uuid":"fc9c12e0-f4f2-4fc4-a30e-fc488bac7121","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vless","name":"CA+加拿大(www.lcr189.com)","server":"47.91.17.249","port":443,"uuid":"0a2973c7-330d-4824-b695-6d7edd4b9770","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"woiden4.danfeng.cf","ws-opts":{"path":"/twgfws","headers":{"host":"woiden4.danfeng.cf"}}}
+  - {"type":"vmess","name":"CN中国北京(www.lcr189.com)","server":"47.94.85.209","port":"4433","uuid":"77a286f4-0a0b-4ef7-aaef-a4fff60872e9","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"CN中国广东(www.lcr189.com)_1","server":"119.23.45.18","port":"4433","uuid":"77a286f4-0a0b-4ef7-aaef-a4fff60872e9","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"CN中国广东(www.lcr189.com)_2","server":"106.55.234.95","port":"31372","uuid":"374d3519-455c-45b8-e3b1-0e2e9fcf4411","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"CN中国杭州(www.lcr189.com)","server":"120.55.63.83","port":"4433","uuid":"77a286f4-0a0b-4ef7-aaef-a4fff60872e9","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"CN中国山东(www.lcr189.com)","server":"47.104.237.32","port":"50002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"DE德国(www.lcr189.com)_1","server":"pf.napsternetv.com","port":"34147","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","name":"DE德国(www.lcr189.com)_2","server":"pf.napsternetv.com","port":"34147","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"trojan","name":"FR+法国(www.lcr189.com)","server":"20010.purefast2.com","port":20010,"password":"f9e7142b-5178-31aa-944d-234654d333fe","udp":true,"skip-cert-verify":true,"sni":"purefast1.com"}
+  - {"type":"vmess","name":"FR法国(www.lcr189.com)","ws-opts":{"path":"/aries","headers":{"host":"fr.cloudflare.quest"}},"server":"www.gov.hk","port":"2086","uuid":"250f4331-8c3e-4b87-a86b-5c5fbf9ddba8","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"HK香港(www.lcr189.com)_1","ws-opts":{"path":"/","headers":{"host":"sg.mochen1314.ga"}},"server":"172.64.156.100","port":"8443","uuid":"3cf2b27d-6e54-4c70-ead1-877b92359e08","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"HK+香港(www.lcr189.com)_1","server":"hkb1.sanfen001.pics","port":443,"password":"def1322c-c5eb-43c4-9db8-873aef72fe89","udp":true,"skip-cert-verify":true,"sni":"hk1.sanfen001.pics"}
+  - {"type":"trojan","name":"HK+香港(www.lcr189.com)_2","server":"tw1.sanfen001.pics","port":443,"password":"def1322c-c5eb-43c4-9db8-873aef72fe89","udp":true,"skip-cert-verify":true,"sni":"tw1.sanfen001.pics"}
+  - {"type":"vmess","name":"HK香港(www.lcr189.com)_2","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"tv.cctv.com"}},"server":"data-hk-v1.heisey.cn","port":"50205","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"HK香港(www.lcr189.com)_3","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"data-hk-v1.shwjfkw.cn"}},"server":"data-hk-v1.shwjfkw.cn","port":"50207","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"HK+香港(www.lcr189.com)_3","server":"20000.purefast2.com","port":20000,"password":"f9e7142b-5178-31aa-944d-234654d333fe","udp":true,"skip-cert-verify":true,"sni":"purefast1.com"}
+  - {"type":"vmess","name":"JP日本(www.lcr189.com)","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"jp02-vm0.entry.srthdw.art"}},"server":"jp02-vm0.entry.srthdw.art","port":"446","uuid":"383b606a-bd29-31ce-9452-983ecb3a854f","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"KR韩国(www.lcr189.com)_1","server":"relay-sg.bfstec.com","port":"52791","uuid":"5ab49caa-ecb3-3cd8-b10b-23bf3958555d","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"KR韩国(www.lcr189.com)_2","ws-opts":{"path":"/NkiAUZ","headers":{"host":"apulnion.com"}},"server":"193.123.244.188","port":"443","uuid":"34421e22-1933-4da2-ab05-a8580d6f051b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vless","name":"KR+韩国(www.lcr189.com)_1","server":"v2ray5.v2rayfree2.xyz","port":443,"uuid":"3dbf8df2-452d-49af-92de-a1789775de9f","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray"}}
+  - {"type":"vless","name":"KR+韩国(www.lcr189.com)_2","server":"v2ray5.v2rayfree2.xyz","port":443,"uuid":"3dbf8df2-452d-49af-92de-a1789775de9f","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray"}}
+  - {"type":"vmess","name":"KR韩国(www.lcr189.com)_3","ws-opts":{"path":"/NkiAUZ","headers":{"host":"apulnion.com"}},"server":"193.123.244.188","port":"443","uuid":"34421e22-1933-4da2-ab05-a8580d6f051b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"KR+韩国(www.lcr189.com)_3","server":"20002.purefast2.com","port":20002,"password":"fe45c260-365d-3da1-abfe-a23c2577d8d6","udp":true,"skip-cert-verify":true,"sni":"purefast1.com"}
+  - {"type":"vmess","name":"NL荷兰(www.lcr189.com)","ws-opts":{"path":"/nl7-EcxxxOvD","headers":{"host":"nl7a.aagogo.cf"}},"server":"nl7a.aagogo.cf","port":"443","uuid":"10759c14-d72f-346d-8d6a-af349e5ecd69","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"NL+荷兰(www.lcr189.com)","server":"20011.purefast2.com","port":20011,"password":"fe45c260-365d-3da1-abfe-a23c2577d8d6","udp":true,"skip-cert-verify":true,"sni":"purefast1.com"}
+  - {"type":"vmess","name":"PL波兰(www.lcr189.com)","ws-opts":{"path":"/eisasqa","headers":{"host":"foxpol.fovi.tk"}},"server":"cf.fovi.tk","port":"2053","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"RU俄罗斯(www.lcr189.com)","server":"pf.napsternetv.com","port":"34146","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","name":"SG新加坡(www.lcr189.com)_1","ws-opts":{"path":"/"},"server":"si.xlkjjs.top","port":"36980","uuid":"259bb289-27c9-3997-b830-9f70eef1cb94","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"SG新加坡(www.lcr189.com)_2","ws-opts":{"path":"/"},"server":"si.xlkjjs.top","port":"36980","uuid":"5dda33cb-6de6-3ba0-9980-8605b67ad6c5","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"SG+新加坡(www.lcr189.com)","server":"20006.purefast2.com","port":20006,"password":"fe45c260-365d-3da1-abfe-a23c2577d8d6","udp":true,"skip-cert-verify":true,"sni":"purefast1.com"}
+  - {"type":"trojan","name":"TUR+土耳其(www.lcr189.com)_1","server":"48.api.infininode.tk","port":443,"password":"a1967b49-cbf4-4b79-b442-73e66a88a912","udp":true,"skip-cert-verify":true,"sni":"inf-tr1.qchwnd.moe"}
+  - {"type":"trojan","name":"TUR+土耳其(www.lcr189.com)_2","server":"20008.purefast2.com","port":20008,"password":"f9e7142b-5178-31aa-944d-234654d333fe","udp":true,"skip-cert-verify":true,"sni":"purefast1.com"}
+  - {"type":"vmess","name":"TW台湾(www.lcr189.com)_1","ws-opts":{"path":"/live","headers":{"host":"cctv.com"}},"server":"tw01.henet.top","port":"20000","uuid":"dcf6ef37-1a0d-496e-85e7-e8635763097e","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"TW+台湾(www.lcr189.com)_1","server":"client.asucaeva.net","port":38002,"password":"17139446-c8e7-4b8b-800b-5f3d7f240d48","udp":true,"skip-cert-verify":true,"sni":"colagzcm.jumpwallsocks.online"}
+  - {"type":"vmess","name":"TW台湾(www.lcr189.com)_2","ws-opts":{"path":"/live","headers":{"host":"cctv.com"}},"server":"tw01.henet.top","port":"20000","uuid":"35c179df-804e-410c-8e27-299d9f2d0b6b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"TW+台湾(www.lcr189.com)_2","server":"sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":30002,"password":"f59127f5-ad7e-4fa1-a3a5-3ec18d92e4be","udp":true,"skip-cert-verify":true,"sni":"v2tw01.fuqiangren.com"}
+  - {"type":"vmess","name":"TW台湾(www.lcr189.com)_3","server":"relay-tw1.bfstec.com","port":"60783","uuid":"5ab49caa-ecb3-3cd8-b10b-23bf3958555d","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"TW+台湾(www.lcr189.com)_3","server":"20001.purefast2.com","port":20001,"password":"fe45c260-365d-3da1-abfe-a23c2577d8d6","udp":true,"skip-cert-verify":true,"sni":"purefast1.com"}
+  - {"type":"trojan","name":"UK+英国(www.lcr189.com)_1","server":"client.asucaeva.net","port":35003,"password":"17139446-c8e7-4b8b-800b-5f3d7f240d48","udp":true,"skip-cert-verify":true,"sni":"colagzcm.jumpwallsocks.online"}
+  - {"type":"vmess","name":"UK英国(www.lcr189.com)_1","ws-opts":{"path":"/eisasqa","headers":{"host":"foxdeovz1.fovi.tk"}},"server":"cf.fovi.tk","port":"2053","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"UK英国(www.lcr189.com)_2","ws-opts":{"path":"/aceamedv","headers":{"host":"sh01.fastcloud.club"}},"server":"sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com","port":"30016","uuid":"f59127f5-ad7e-4fa1-a3a5-3ec18d92e4be","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"UK+英国(www.lcr189.com)_2","server":"20009.purefast2.com","port":20009,"password":"f9e7142b-5178-31aa-944d-234654d333fe","udp":true,"skip-cert-verify":true,"sni":"purefast1.com"}
+  - {"type":"vmess","name":"UK英国(www.lcr189.com)_3","ws-opts":{"path":"/aries","headers":{"host":"scw.cloudflare.quest"}},"server":"www.gov.hk","port":"2086","uuid":"ddcd66fd-c716-439c-9ab8-2adb1400ff48","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"UK英国(www.lcr189.com)_4","ws-opts":{"path":"/aries","headers":{"host":"scw.cloudflare.quest"}},"server":"www.gov.hk","port":"2086","uuid":"ddcd66fd-c716-439c-9ab8-2adb1400ff48","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"US美国(www.lcr189.com)_1","ws-opts":{"path":"/","headers":{"host":"20.210.228.58"}},"server":"20.210.228.58","port":"80","uuid":"fec544c5-6ec4-45d8-8878-17f799e77e96","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"US美国(www.lcr189.com)_2","ws-opts":{"path":"/ray","headers":{"host":"lg1.cfcdn1.xyz"}},"server":"172.64.154.222","port":"443","uuid":"fcfaec91-6096-44d8-956c-7868d9e874b1","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US美国(www.lcr189.com)_3","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"172.64.154.155","port":"443","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US美国(www.lcr189.com)_4","ws-opts":{"path":"/ray","headers":{"host":"lg30.cfcdn3.xyz"}},"server":"172.64.154.201","port":"443","uuid":"91646f9a-b4e9-4aca-bfe3-8892b3e58fe7","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US美国(www.lcr189.com)_5","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"lg1.cfcdn3.xyz"}},"server":"141.101.115.120","port":"443","uuid":"33aa57df-1c93-4318-9fce-e850437ee781","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US美国(www.lcr189.com)_6","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"172.64.154.102","port":"443","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US美国(www.lcr189.com)_7","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"v2ray2.ssr-free2.xyz"}},"server":"128.14.140.254","port":"443","uuid":"0479eb9d-999d-4bff-ae3f-4f7cc440ce46","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US美国(www.lcr189.com)_8","ws-opts":{"path":"/ray","headers":{"host":"lg1.cfcdn1.xyz"}},"server":"141.101.115.133","port":"443","uuid":"fcfaec91-6096-44d8-956c-7868d9e874b1","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US美国(www.lcr189.com)_9","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"172.64.153.150","port":"443","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US美国(www.lcr189.com)_10","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"v2ray2.ssr-free2.xyz"}},"server":"66.212.20.3","port":"443","uuid":"0479eb9d-999d-4bff-ae3f-4f7cc440ce46","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US美国(www.lcr189.com)_11","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash1.trump2023.net"}},"server":"141.101.114.20","port":"443","uuid":"176b598f-445b-41ac-9d2a-430c5c4df26a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US美国(www.lcr189.com)_12","ws-opts":{"path":"/ray","headers":{"host":"lg30.cfcdn3.xyz"}},"server":"47.254.171.201","port":"443","uuid":"91646f9a-b4e9-4aca-bfe3-8892b3e58fe7","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US美国(www.lcr189.com)_13","ws-opts":{"path":"/aries","headers":{"host":"buyvm.cloudflare.quest"}},"server":"ip.skk.moe","port":"2086","uuid":"e91c45c9-2c0f-46a9-c56d-21663b9e2c18","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"US+美国(www.lcr189.com)","server":"tr19.tgcunzhang.xyz","port":3869,"password":"752a9404-c729-485e-8ea5-acb3f4fc8180","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"US美国(www.lcr189.com)_14","ws-opts":{"path":"/eisasqa","headers":{"host":"foxuk.fovi.tk"}},"server":"cf.fovi.tk","port":"2053","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US美国(www.lcr189.com)_15","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"172.64.154.150","port":"443","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US美国(www.lcr189.com)_16","ws-opts":{"path":"/ray","headers":{"host":"lg30.cfcdn3.xyz"}},"server":"47.254.128.86","port":"443","uuid":"91646f9a-b4e9-4aca-bfe3-8892b3e58fe7","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US美国(www.lcr189.com)_17","ws-opts":{"path":"/2yevws","headers":{"host":"cc.1808.cf"}},"server":"cf.731808.tk","port":"443","uuid":"acc94bf4-94c1-4a08-8b79-9be2b76499b6","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US美国(www.lcr189.com)_18","ws-opts":{"path":"/eisasqa","headers":{"host":"foxuk.fovi.tk"}},"server":"cf.fovi.tk","port":"2053","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US美国(www.lcr189.com)_19","ws-opts":{"path":"/aries","headers":{"host":"buyvm.cloudflare.quest"}},"server":"ip.skk.moe","port":"2086","uuid":"e91c45c9-2c0f-46a9-c56d-21663b9e2c18","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"US美国(www.lcr189.com)_20","ws-opts":{"path":"/","headers":{"host":"dj2.qiancheng.ml"}},"server":"47.254.135.214","port":"8443","uuid":"377ca891-7b20-41c8-a5cc-1bb5b3f29f3e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US美国(www.lcr189.com)_21","ws-opts":{"path":"/NkiAUZ","headers":{"host":"apulnion.com"}},"server":"193.123.244.188","port":"443","uuid":"34421e22-1933-4da2-ab05-a8580d6f051b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US美国(www.lcr189.com)_22","ws-opts":{"path":"/aries","headers":{"host":"linus.cloudflare.quest"}},"server":"www.gov.hk","port":"2086","uuid":"1ab91f18-6168-4cb6-c9ca-2c3c7158fe4c","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"US美国(www.lcr189.com)_23","ws-opts":{"path":"/","headers":{"host":"dj2.qiancheng.ml"}},"server":"47.254.133.140","port":"8443","uuid":"377ca891-7b20-41c8-a5cc-1bb5b3f29f3e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"US美国(www.lcr189.com)_24","ws-opts":{"path":"/uscc2"},"server":"gz.baibianxiaoying.top","port":"20630","uuid":"aca9fda5-1a32-349d-ab79-cd9f69a75d44","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"VN+越南(www.lcr189.com)","server":"20007.purefast2.com","port":20007,"password":"f9e7142b-5178-31aa-944d-234654d333fe","udp":true,"skip-cert-verify":true,"sni":"purefast1.com"}
+  - {"type":"trojan","name":"泰国(www.lcr189.com)","server":"20005.purefast2.com","port":20005,"password":"fe45c260-365d-3da1-abfe-a23c2577d8d6","udp":true,"skip-cert-verify":true,"sni":"purefast1.com"}
+  - {"type":"vmess","name":"🇯🇵日本_1028143","ws-opts":{"path":"/"},"server":"20.222.117.187","port":"80","uuid":"fec544c5-6ec4-45d8-8878-17f799e77e96","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇯🇵日本_1028129","ws-opts":{"path":"/"},"server":"18.182.50.27","port":"80","uuid":"fec544c5-6ec4-45d8-8878-17f799e77e96","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇸🇬新加坡_1028020","ws-opts":{"path":"/"},"server":"138.2.66.153","port":"10011","uuid":"04235a12-7668-46f0-c9f1-def54682c8ef","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇸🇬新加坡_1028293","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"v2ray2.ssr-free2.xyz"}},"server":"8.219.176.218","port":"443","uuid":"0479eb9d-999d-4bff-ae3f-4f7cc440ce46","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"🇯🇵[10-30]-🇯🇵-日本-003-43.198.12.229","server":"43.198.12.229","port":28443,"password":"b0a3ce89-1afe-4748-b8b6-6eaf0a53f5f5","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇯🇵-日本东京-52.192.248.205","ws-opts":{"path":"/","headers":{"host":"52.192.248.205"}},"server":"52.192.248.205","port":"443","uuid":"5f7e80d2-8115-4597-92e0-f85f3bc972fe","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇯🇵-日本东京-52.199.209.73","ws-opts":{"path":"/"},"server":"52.199.209.73","port":"443","uuid":"fec544c5-6ec4-45d8-8878-17f799e77e96","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇯🇵-日本-00000000000000000000000000000000000000000000000000000000000024a.rui77.com","ws-opts":{"path":"/","headers":{"host":"00000000000000000000000000000000000000000000000000000000000024a.rui77.com"}},"server":"00000000000000000000000000000000000000000000000000000000000024a.rui77.com","port":"443","uuid":"0f1df3fb-4dc5-4558-9bde-4f703c864a78","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇯🇵-日本-00000000000000000000000000000000000000000000000000000000000037a.rui77.com","server":"00000000000000000000000000000000000000000000000000000000000037a.rui77.com","port":"443","uuid":"a72e790f-e18a-43b0-a7a7-bcc33f144092","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇯🇵-日本-00000000000000000000000000000000000000000000000000000000000033a.rui77.com","server":"00000000000000000000000000000000000000000000000000000000000033a.rui77.com","port":"443","uuid":"a72e790f-e18a-43b0-a7a7-bcc33f144092","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇯🇵-日本-146.56.133.109","server":"146.56.133.109","port":"443","uuid":"575e4d92-1056-44c2-8cac-75ef1c859ad5","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","name":"🇯🇵-日本-146.56.155.70","server":"146.56.155.70","port":"443","uuid":"f9771c19-c91c-41b5-9064-8768b51cec6d","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇯🇵-日本-146.56.166.153","ws-opts":{"path":"/2yevws","headers":{"host":"cc.1808.cf"}},"server":"146.56.166.153","port":"443","uuid":"acc94bf4-94c1-4a08-8b79-9be2b76499b6","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇯🇵-日本-16.kkyun.cyou","ws-opts":{"path":"/Danhuang/Jiang","headers":{"host":"16.kkyun.cyou"}},"server":"16.kkyun.cyou","port":"443","uuid":"f1028d87-d7dd-359c-89ba-c096bfee2d24","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇯🇵-日本-172.104.125.96","server":"172.104.125.96","port":"443","uuid":"db95a78c-daed-4439-a0ef-1180ac2f6666","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇯🇵-日本-1260eea.wz.glados-config.net","ws-opts":{"path":"/t","headers":{"host":"1260eea.wz.glados-config.net"}},"server":"1260eea.wz.glados-config.net","port":"443","uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇯🇵-日本-1260eea.td.glados-config.net","ws-opts":{"path":"/t","headers":{"host":"1260eea.td.glados-config.net"}},"server":"1260eea.td.glados-config.net","port":"443","uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇯🇵-日本-13.231.240.122","ws-opts":{"path":"/"},"server":"13.231.240.122","port":"443","uuid":"fec544c5-6ec4-45d8-8878-17f799e77e96","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇯🇵-日本-35.77.223.19","server":"35.77.223.19","port":"443","uuid":"fec544c5-6ec4-45d8-8878-17f799e77e96","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇯🇵-日本-35.79.220.83","ws-opts":{"path":"/","headers":{"host":"35.79.220.83"}},"server":"35.79.220.83","port":"443","uuid":"5f7e80d2-8115-4597-92e0-f85f3bc972fe","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇯🇵-日本-47.74.19.41","ws-opts":{"path":"/","headers":{"host":"intrepid.moss.network"}},"server":"47.74.19.41","port":"443","uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇯🇵-日本-47.74.21.12","ws-opts":{"path":"/v2ray","headers":{"host":"idnusa2.vpn-akcelluler.my.id"}},"server":"47.74.21.12","port":"443","uuid":"fc9c12e0-f4f2-4fc4-a30e-fc488bac7121","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇯🇵-日本-47.74.33.226","ws-opts":{"path":"/","headers":{"host":"intrepid.moss.network"}},"server":"47.74.33.226","port":"443","uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇯🇵-日本-47.74.43.158","ws-opts":{"path":"/wmzmvws","headers":{"host":"goodfamily19.site"}},"server":"47.74.43.158","port":"443","uuid":"572126f8-5301-83c2-0a26-c30ced3db7c4","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇯🇵-日本-47.74.54.228","ws-opts":{"path":"/wmzmvws","headers":{"host":"goodfamily19.site"}},"server":"47.74.54.228","port":"443","uuid":"572126f8-5301-83c2-0a26-c30ced3db7c4","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇯🇵-日本-54.199.24.57","ws-opts":{"path":"/images","headers":{"host":"shoutingtoutiao3.10010.com"}},"server":"54.199.24.57","port":"443","uuid":"94673e19-11fa-4370-8583-989e9eb1a710","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇯🇵-日本-m2.pianyijc.top","ws-opts":{"path":"/sometimesnaive","headers":{"host":"m2.pianyijc.top"}},"server":"m2.pianyijc.top","port":"443","uuid":"6b855dbd-3f5a-4a8b-8338-73ab337eb8e6","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇯🇵-日本-awsjp.mayiyun.shop","ws-opts":{"path":"/","headers":{"host":"a.189.cn"}},"server":"awsjp.mayiyun.shop","port":"443","uuid":"6fe3cc99-5c4a-44f6-9d79-f6035193dc67","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇯🇵-日本-awskr2.mayiyun.shop","ws-opts":{"path":"/","headers":{"host":"a.189.cn"}},"server":"awskr2.mayiyun.shop","port":"443","uuid":"6fe3cc99-5c4a-44f6-9d79-f6035193dc67","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇯🇵-日本-aeadjpaes01.xn--z4q48lcvp.com","ws-opts":{"path":"/","headers":{"host":"aeadjpaes01.xn--z4q48lcvp.com"}},"server":"aeadjpaes01.xn--z4q48lcvp.com","port":"443","uuid":"94673e19-11fa-4370-8583-989e9eb1a710","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇯🇵-日本-bgroup.node1.v.nodelist-gfwairport.download","ws-opts":{"path":"/","headers":{"host":"bgroup.node1.v.nodelist-gfwairport.download"}},"server":"bgroup.node1.v.nodelist-gfwairport.download","port":"443","uuid":"1bb6757a-01cc-4fa8-a832-57022e79f1f7","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇯🇵-日本-bgroup.node4.v.nodelist-gfwairport.download","ws-opts":{"path":"/","headers":{"host":"bgroup.node4.v.nodelist-gfwairport.download"}},"server":"bgroup.node4.v.nodelist-gfwairport.download","port":"443","uuid":"1bb6757a-01cc-4fa8-a832-57022e79f1f7","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇯🇵-日本-jp.333210.xyz","ws-opts":{"path":"/bby","headers":{"host":"down.dingtalk.com"}},"server":"jp.333210.xyz","port":"443","uuid":"fbf7a58f-d025-4e27-b2c7-a79e35654c58","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇯🇵-日本-jp04-vm0.entry.rwesdhytjuftyhdafsdgfrh.club","ws-opts":{"path":"/","headers":{"host":"jp04-vm0.entry.rwesdhytjuftyhdafsdgfrh.club"}},"server":"jp04-vm0.entry.rwesdhytjuftyhdafsdgfrh.club","port":"443","uuid":"c498879d-8a73-3baf-a4f4-a0f38b75949c","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇯🇵-日本-jp1.wanss.win","ws-opts":{"path":"/","headers":{"host":"jp1.wanss.win"}},"server":"jp1.wanss.win","port":"443","uuid":"48C166B2-BFC2-512E-4D67-47C2F7B2CE5C","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇯🇵-日本-jp1.wumaojichang.ml","ws-opts":{"path":"/","headers":{"host":"baidu.com"}},"server":"jp1.wumaojichang.ml","port":"443","uuid":"583f3d43-503f-41a8-b616-5d42e4b6f0f7","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇯🇵-日本-jp3.wumaojichang.ml","ws-opts":{"path":"/zz-1.wumaojichang.ml","headers":{"host":"jp3.wumaojichang.ml"}},"server":"jp3.wumaojichang.ml","port":"443","uuid":"583f3d43-503f-41a8-b616-5d42e4b6f0f7","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇯🇵-日本-jptws.hotfun.buzz","ws-opts":{"path":"/hootfun","headers":{"host":"jptws.hotfun.buzz"}},"server":"jptws.hotfun.buzz","port":"443","uuid":"e1f80416-5394-4fcd-af80-12ef9799a92c","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇯🇵-日本-urgjp.hotfun.buzz","ws-opts":{"path":"/hootfun","headers":{"host":"urgjp.hotfun.buzz"}},"server":"urgjp.hotfun.buzz","port":"443","uuid":"e1f80416-5394-4fcd-af80-12ef9799a92c","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇯🇵-日本-v31.idcloudhost.de","ws-opts":{"path":"/","headers":{"host":"v31.idcloudhost.de"}},"server":"v31.idcloudhost.de","port":"443","uuid":"00974d71-032f-4f5c-941b-612fb426252a","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇯🇵-日本-zfsp1.mayiyun.shop","ws-opts":{"path":"/","headers":{"host":"a.189.cn"}},"server":"zfsp1.mayiyun.shop","port":"443","uuid":"6fe3cc99-5c4a-44f6-9d79-f6035193dc67","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇭🇰-香港-154.208.10.62","ws-opts":{"path":"/"},"server":"154.208.10.62","port":"443","uuid":"f201e416-8514-44f7-b6d4-5414039f74a9","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇭🇰-香港-159.100.206.88","ws-opts":{"path":"/ray","headers":{"host":"lg30.cfcdn3.xyz"}},"server":"159.100.206.88","port":"443","uuid":"91646f9a-b4e9-4aca-bfe3-8892b3e58fe7","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇭🇰-香港-165.154.5.235","server":"165.154.5.235","port":"443","uuid":"0eb9d2fa-17d1-4276-af80-15323dc1dca5","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇭🇰-香港-18.166.58.46","server":"18.166.58.46","port":"443","uuid":"37f49293-69e2-4b64-85fe-76cd0d1ef343","alterId":"1","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸-美国-152.228.191.232","ws-opts":{"path":"/ray","headers":{"host":"lg30.cfcdn3.xyz"}},"server":"152.228.191.232","port":"443","uuid":"91646f9a-b4e9-4aca-bfe3-8892b3e58fe7","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"-美洲地区-173.205.94.4","ws-opts":{"path":"/","headers":{"host":"s351.okggnode.top"}},"server":"173.205.94.4","port":"443","uuid":"8789e118-d508-33b1-b619-df4a2cf3b933","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸-美国加利福尼亚州硅谷-43.153.4.246","ws-opts":{"path":"/","headers":{"host":"arm1dj.qiancheng.ml"}},"server":"43.153.4.246","port":"443","uuid":"b2720223-3eb6-4d26-860c-a891e02045bc","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸-美国加利福尼亚州硅谷-43.154.34.49","server":"43.154.34.49","port":"443","uuid":"b402a4af-285a-463e-c3a7-53f91efdec78","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸-美国加利福尼亚州硅谷-tx-xg-2.ienai.xin","server":"tx-xg-2.ienai.xin","port":"443","uuid":"03b188df-f7be-4038-8bc3-ffd2edb2b56a","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","name":"🇺🇸-美国加利福尼亚州硅谷-tchk1.zhangxuan.best","ws-opts":{"path":"/","headers":{"host":"tchk1.zhangxuan.best"}},"server":"tchk1.zhangxuan.best","port":"443","uuid":"7f67fb11-832d-3492-adfe-63e0cceafbe0","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸-美国加利福尼亚州硅谷-tchk3.zhangxuan.best","ws-opts":{"path":"/","headers":{"host":"tchk3.zhangxuan.best"}},"server":"tchk3.zhangxuan.best","port":"443","uuid":"7f67fb11-832d-3492-adfe-63e0cceafbe0","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸-美国加利福尼亚州洛杉矶-41.216.177.148","ws-opts":{"path":"/vmess","headers":{"host":"Titiitguuv"}},"server":"41.216.177.148","port":"443","uuid":"422e667b-954d-4daa-9dc1-5f08f9b479fc","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸-美国加利福尼亚州洛杉矶-us-ca1.qwqjsq.top","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"aweikeji-YouTube-TG"}},"server":"us-ca1.qwqjsq.top","port":"443","uuid":"b0543a3b-d690-3ed9-9a81-f24f852e74f7","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸-美国加利福尼亚州洛杉矶-us1.lolvps.xyz","ws-opts":{"path":"/AY920UMR","headers":{"host":"us1.lolvps.xyz"}},"server":"us1.lolvps.xyz","port":"443","uuid":"95886c76-9207-48bd-9e64-d1422e75ad89","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸-美国弗吉尼亚州文特山农场-usv-4.openv2ray.com","ws-opts":{"path":"/opentunnel?user=opentunnel.net-arty98","headers":{"host":"usv-4.openv2ray.com"}},"server":"usv-4.openv2ray.com","port":"443","uuid":"a40d34c6-b77c-4648-9210-3e8d2f4226b5","alterId":"16","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸-美国-00000000000000000000000000000000000000000000000000000000000013a.rui77.com","server":"00000000000000000000000000000000000000000000000000000000000013a.rui77.com","port":"443","uuid":"439f8ee0-f5a2-41c8-8167-895295033a10","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸-美国-00000000000000000000000000000000000000000000000000000000000026a.rui77.com","server":"00000000000000000000000000000000000000000000000000000000000026a.rui77.com","port":"443","uuid":"0f1df3fb-4dc5-4558-9bde-4f703c864a78","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸-美国-00000000000000000000000000000000000000000000000000000000000039a.rui77.com","server":"00000000000000000000000000000000000000000000000000000000000039a.rui77.com","port":"443","uuid":"edc9e8a8-518e-425a-8184-e55d16d844b2","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸-美国-141.193.213.21","ws-opts":{"path":"/vpnneo","headers":{"host":"141.193.213.21"}},"server":"141.193.213.21","port":"443","uuid":"3890505d-a496-4418-91a1-742faa2b0ac7","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸-美国-15.235.147.186","ws-opts":{"path":"/sshkit/Ertusg86/635014638c264/"},"server":"15.235.147.186","port":"443","uuid":"6fea1649-425b-4092-bf53-29792152c925","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸-美国-15.235.163.180","ws-opts":{"path":"/sshocean"},"server":"15.235.163.180","port":"443","uuid":"78f936d1-8a72-4b7c-aafa-c8284e15ccaa","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸-美国-150.230.199.177","server":"150.230.199.177","port":"443","uuid":"6b745caf-e7f6-49f1-9b63-e5c416303bac","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸-美国-152.67.196.3","ws-opts":{"path":"/"},"server":"152.67.196.3","port":"443","uuid":"0b7175a0-f97c-43d9-83aa-284ddd2be488","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸-美国-152.67.223.187","server":"152.67.223.187","port":"443","uuid":"5da35e16-0af7-47cc-ed73-269824ccb1a2","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸-美国-152.70.88.47","ws-opts":{"path":"/"},"server":"152.70.88.47","port":"443","uuid":"9eaabb90-c98b-4fa3-9890-8622d53c878c","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳-加拿大-tw.mayiyun.shop","ws-opts":{"path":"/","headers":{"host":"a.189.cn"}},"server":"tw.mayiyun.shop","port":"443","uuid":"6fe3cc99-5c4a-44f6-9d79-f6035193dc67","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸-美国-172.64.94.238","ws-opts":{"path":"xxX3","headers":{"host":"172.64.94.238"}},"server":"172.64.94.238","port":"443","uuid":"80e098a1-f768-3dfb-b97f-6c3a5d34bcd8","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇩🇪-德国-47.254.175.195","ws-opts":{"path":"/wmzmvws","headers":{"host":"goodfamily19.site"}},"server":"47.254.175.195","port":"443","uuid":"572126f8-5301-83c2-0a26-c30ced3db7c4","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"🇫🇷[10-30]-🇫🇷-法国-001-62.210.254.72","server":"62.210.254.72","port":28443,"password":"750a29bf-0a40-437f-b120-38de74ae7eaf","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"-亚太地区-103.186.149.132","ws-opts":{"path":"/shopvpn.net"},"server":"103.186.149.132","port":"443","uuid":"67468d89-cf87-443c-baca-49f1e73b5991","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"-亚太地区-103.186.149.242","ws-opts":{"path":"/shopvpn.net"},"server":"103.186.149.242","port":"443","uuid":"a479fc02-07c5-4864-8564-c4f147dfa488","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"-亚太地区-103.186.149.220","ws-opts":{"path":"/shopvpn.net"},"server":"103.186.149.220","port":"443","uuid":"67468d89-cf87-443c-baca-49f1e73b5991","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"-亚太地区-1114hk.fans8.xyz","ws-opts":{"path":"/v2ray","headers":{"host":"t.me/vpnhat"}},"server":"1114hk.fans8.xyz","port":"443","uuid":"fbf53107-1b42-3da5-a77d-6ad22544c0e9","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇭🇰-亚太地区-hk-01.proxyvip.top","ws-opts":{"path":"/download","headers":{"host":"hk-01.proxyvip.top"}},"server":"hk-01.proxyvip.top","port":"443","uuid":"85a1ef8f-7f03-4386-9269-9f3c88855f3b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"-亚太地区-vietnam.hn14.shopvpn.net","ws-opts":{"path":"/shopvpn.net","headers":{"host":"vietnam.hn14.shopvpn.net"}},"server":"vietnam.hn14.shopvpn.net","port":"443","uuid":"23959a9d-be8b-45d7-b284-5a3f9f29039a","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"-亚太地区-vn1.v2-ray.com","ws-opts":{"path":"/fastssh/ghhgjkl/6348c03c0d17d/","headers":{"host":"vn1.v2-ray.com"}},"server":"vn1.v2-ray.com","port":"443","uuid":"fbf78c1f-6f42-45e0-a1a9-67de703b90f8","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇧🇷-巴西-138.118.175.28","server":"138.118.175.28","port":"443","uuid":"b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","name":"-本机地址-V104.bgpnet.top","ws-opts":{"path":"/admin","headers":{"host":"V104.bgpnet.top"}},"server":"V104.bgpnet.top","port":"443","uuid":"ef361c83-8b89-3950-9c9b-6ccc177e6285","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"-本机地址-cf.fovi.tk","ws-opts":{"path":"/eisasqa","headers":{"host":"foxpol.fovi.tk"}},"server":"cf.fovi.tk","port":"443","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"-本机地址-dlszl.hotfun.buzz","ws-opts":{"path":"/hoot","headers":{"host":"dlszl.hotfun.buzz"}},"server":"dlszl.hotfun.buzz","port":"443","uuid":"6eaf2625-6e24-4c4f-8670-440f40e3b8c9","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"-本机地址-hkaz7.xmrth-node.xyz","ws-opts":{"path":"/index","headers":{"host":"www.baidu.com"}},"server":"hkaz7.xmrth-node.xyz","port":"443","uuid":"60517dbb-a465-32c6-87e7-2a457663de53","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"-本机地址-jp02.henet.cyou","ws-opts":{"path":"/live","headers":{"host":"cctv.com"}},"server":"jp02.henet.cyou","port":"443","uuid":"279e0915-b0ce-49c7-a4df-39f9232d2034","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"-本机地址-jpaws006.xmrth-node.xyz","ws-opts":{"path":"/index","headers":{"host":"www.baidu.com"}},"server":"jpaws006.xmrth-node.xyz","port":"443","uuid":"60517dbb-a465-32c6-87e7-2a457663de53","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"-本机地址-jpaz2.xmrth-node.xyz","ws-opts":{"path":"/index","headers":{"host":"www.baidu.com"}},"server":"jpaz2.xmrth-node.xyz","port":"443","uuid":"60517dbb-a465-32c6-87e7-2a457663de53","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"-本机地址-jplin005.xmrth-node.xyz","ws-opts":{"path":"/index","headers":{"host":"www.baidu.com"}},"server":"jplin005.xmrth-node.xyz","port":"443","uuid":"60517dbb-a465-32c6-87e7-2a457663de53","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇵🇭-菲律宾-ph1.vpnjantit.com","ws-opts":{"path":"/","headers":{"host":"ph1.vpnjantit.com"}},"server":"ph1.vpnjantit.com","port":"443","uuid":"fc2bf970-451b-11ed-a0ce-038d15ca0d7b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇻🇳-越南-0001.hcm.genzpn.com","ws-opts":{"path":"/","headers":{"host":"dl.ops.kgvn.garenanow.com.akamaized.net"}},"server":"0001.hcm.genzpn.com","port":"443","uuid":"4f4418cd-385c-4203-a323-1b4d2be8e495","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"-非洲地区-102.37.157.62","ws-opts":{"path":"/","headers":{"host":"102.37.157.62"}},"server":"102.37.157.62","port":"443","uuid":"d6783caf-ac05-4b79-9b6a-d2db93d44b43","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇲🇾-马来西亚-my2.vpnjantit.com","ws-opts":{"path":"/vpnjantit","headers":{"host":"my2.vpnjantit.com"}},"server":"my2.vpnjantit.com","port":"443","uuid":"ecbb184e-451c-11ed-a179-00163e005b89","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"trojan","name":"香港亚马逊-1号","server":"43.198.12.229","port":28443,"password":"a68ff64d-1987-4ff2-a7a5-f161b952be13","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"香港HKT-江移|解锁流媒体","server":"223.111.122.199","port":30100,"password":"a68ff64d-1987-4ff2-a7a5-f161b952be13","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"香港HKIX-江移|解锁流媒体","server":"223.111.122.199","port":30040,"password":"a68ff64d-1987-4ff2-a7a5-f161b952be13","udp":true,"skip-cert-verify":true}
@@ -28,85 +197,181 @@ proxies:
   - {"type":"vmess","name":"【美国】峰值1000M-NetFlix解锁","ws-opts":{"path":"/by.xbygood.xyz","headers":{"host":"mg1.xbywwcp.us"}},"server":"mg1.xbywwcp.us","port":65520,"uuid":"e3dcfe09-bda5-35db-a717-0f6e5bc2f4cb","alterId":0,"cipher":"chacha20-poly1305","network":"ws"}
   - {"type":"vmess","name":"【纽约】峰值1000MNetFlix解锁","ws-opts":{"path":"/by.xbygood.xyz","headers":{"host":"a.189.cn"}},"server":"mgny.xbywwcp.us","port":65520,"uuid":"e3dcfe09-bda5-35db-a717-0f6e5bc2f4cb","alterId":0,"cipher":"chacha20-poly1305","network":"ws"}
   - {"type":"vless","name":"卢森堡","ws-opts":{"path":"/","headers":{"host":"lu.hug1013.ml"}},"server":"h5.miyun.pro","port":2086,"uuid":"85e1f3e1-aac9-4599-ab61-69aa93635100","alterId":0,"cipher":"none","network":"ws"}
-  - {"type":"vless","name":"default_name_1","server":"xray.wefuckgfw.tk","port":8443,"uuid":"1a3ca168-5731-11ed-9266-52cf009e38c5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/mHU7931K/"}}
-  - {"type":"vless","name":"default_name_2","server":"xray.wefuckgfw.tk","port":8443,"uuid":"1cae9726-5731-11ed-9266-52cf009e38c5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/mHU7931K/"}}
-  - {"type":"vless","name":"default_name_3","server":"xray.wefuckgfw.tk","port":8443,"uuid":"1f257dda-5731-11ed-9266-52cf009e38c5","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/mHU7931K/"}}
-  - {"type":"vmess","name":"_1","ws-opts":{"path":"/kODinIqQ/"},"server":"v2ray.wefuckgfw.tk","port":8443,"uuid":"d0282038-5731-11ed-b973-52ac00dea0a4","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"_2","ws-opts":{"path":"/kODinIqQ/"},"server":"v2ray.wefuckgfw.tk","port":8443,"uuid":"d4eb6df0-5731-11ed-b973-52ac00dea0a4","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"_3","ws-opts":{"path":"/kODinIqQ/"},"server":"v2ray.wefuckgfw.tk","port":8443,"uuid":"d7e61ad2-5731-11ed-b973-52ac00dea0a4","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"trojan.wefuckgfw.tk:443_1","server":"trojan.wefuckgfw.tk","port":443,"password":"BQXJHGqe","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"trojan.wefuckgfw.tk:443_2","server":"trojan.wefuckgfw.tk","port":443,"password":"xXTKSkHo","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"trojan.wefuckgfw.tk:443_3","server":"trojan.wefuckgfw.tk","port":443,"password":"lqPjhOVu","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"TW台湾(www.lcr189.com)","ws-opts":{"path":"/guolicheng/hinet","headers":{"host":"www.189.cn"}},"server":"223.111.122.199","port":"38080","uuid":"8498bfc8-c030-40df-80e8-69f9e06fe16a","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"TW+台湾(www.lcr189.com)","server":"tw1.sanfen001.pics","port":443,"password":"9010950e-8e09-486a-bf96-3b0cf22097b4","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"UK英国(www.lcr189.com)_1","ws-opts":{"path":"/bxfbvws","headers":{"host":"h5528.1808.cf"}},"server":"cf.731808.tk","port":"443","uuid":"8194f724-d648-4eb8-98d2-0013136e79f0","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"UK英国(www.lcr189.com)_2","ws-opts":{"path":"/v122-EthelloAcU"},"server":"v122.aagogo.cf","port":"443","uuid":"5d3e4f62-135d-3224-80cb-7463a6464c67","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"UK英国(www.lcr189.com)_3","ws-opts":{"path":"/aries","headers":{"host":"scw.cloudflare.quest"}},"server":"www.gov.hk","port":"2086","uuid":"ddcd66fd-c716-439c-9ab8-2adb1400ff48","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"UK英国(www.lcr189.com)_4","ws-opts":{"path":"/aries","headers":{"host":"uk.cloudflare.quest"}},"server":"h5.miyun.pro","port":"2086","uuid":"ad1454a4-c9e2-4836-c98d-66e3646c2aa4","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"UK英国(www.lcr189.com)_5","ws-opts":{"path":"/eisasqa","headers":{"host":"foxdeovz1.fovi.tk"}},"server":"cf.fovi.tk","port":"2053","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"US美国(www.lcr189.com)_1","ws-opts":{"path":"/ray","headers":{"host":"lg30.cfcdn3.xyz"}},"server":"172.64.154.201","port":"443","uuid":"91646f9a-b4e9-4aca-bfe3-8892b3e58fe7","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"US美国(www.lcr189.com)_2","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash1.trump2023.net"}},"server":"141.101.115.20","port":"443","uuid":"176b598f-445b-41ac-9d2a-430c5c4df26a","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"US美国(www.lcr189.com)_3","ws-opts":{"path":"/guolicheng/us3","headers":{"host":"www.189.cn"}},"server":"223.111.122.199","port":"38080","uuid":"8498bfc8-c030-40df-80e8-69f9e06fe16a","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"US美国(www.lcr189.com)_4","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"172.64.154.102","port":"443","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"US美国(www.lcr189.com)_5","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"172.64.154.155","port":"443","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"US美国(www.lcr189.com)_6","ws-opts":{"path":"/guolicheng/us1","headers":{"host":"www.189.cn"}},"server":"223.111.122.199","port":"38080","uuid":"8498bfc8-c030-40df-80e8-69f9e06fe16a","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"US美国(www.lcr189.com)_7","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"v2ray2.ssr-free2.xyz"}},"server":"66.212.20.3","port":"443","uuid":"0479eb9d-999d-4bff-ae3f-4f7cc440ce46","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"US美国(www.lcr189.com)_8","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"v2ray2.ssr-free2.xyz"}},"server":"128.14.140.254","port":"443","uuid":"0479eb9d-999d-4bff-ae3f-4f7cc440ce46","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"US美国(www.lcr189.com)_9","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"172.64.153.150","port":"443","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"US美国(www.lcr189.com)_10","ws-opts":{"path":"/ray","headers":{"host":"lg1.cfcdn1.xyz"}},"server":"172.64.154.222","port":"443","uuid":"fcfaec91-6096-44d8-956c-7868d9e874b1","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"US美国(www.lcr189.com)_11","ws-opts":{"path":"/2yevws","headers":{"host":"cc.1808.cf"}},"server":"cf.731808.tk","port":"443","uuid":"acc94bf4-94c1-4a08-8b79-9be2b76499b6","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"US美国(www.lcr189.com)_12","ws-opts":{"path":"/eisasqa","headers":{"host":"foxuk.fovi.tk"}},"server":"cf.fovi.tk","port":"2053","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"US美国(www.lcr189.com)_13","ws-opts":{"path":"/@heinuhome","headers":{"host":"heinuhome-awsus.heinu.cf"}},"server":"guolicheng.cc","port":"2086","uuid":"2deba385-c19c-4f77-958e-dde0bcdddff5","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"US美国(www.lcr189.com)_14","ws-opts":{"path":"/aries","headers":{"host":"linus.cloudflare.quest"}},"server":"www.gov.hk","port":"2086","uuid":"1ab91f18-6168-4cb6-c9ca-2c3c7158fe4c","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"US+美国(www.lcr189.com)","server":"hk2.sanfen001.pics","port":443,"password":"9010950e-8e09-486a-bf96-3b0cf22097b4","udp":true,"skip-cert-verify":true,"sni":"hk1.sanfen001.pics"}
-  - {"type":"vmess","name":"US美国(www.lcr189.com)_15","ws-opts":{"path":"/aries","headers":{"host":"buyvm.cloudflare.quest"}},"server":"ip.skk.moe","port":"2086","uuid":"e91c45c9-2c0f-46a9-c56d-21663b9e2c18","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"US美国(www.lcr189.com)_16","server":"pf.napsternetv.com","port":"34146","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"US美国(www.lcr189.com)_17","ws-opts":{"path":"/v149-3Fjy65","headers":{"host":"v149a.aagogo.cf"}},"server":"v149a.aagogo.cf","port":"443","uuid":"90bd7f18-8d9d-3658-921b-3ad6a3d9d646","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"VN越南(www.lcr189.com)_1","ws-opts":{"path":"/by.xbygood.xyz","headers":{"host":"yn.xbywwcp.us"}},"server":"yn.xbywwcp.us","port":"25365","uuid":"99e2f539-700f-3947-b31a-4c9d912ff5fa","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"VN越南(www.lcr189.com)_2","ws-opts":{"path":"/aries","headers":{"host":"vn.cloudflare.quest"}},"server":"www.gov.hk","port":"2086","uuid":"dc8b64db-eb6d-4bdf-98b2-31615319bea8","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"_RU_俄罗斯联邦->🇳🇱_NL_荷兰","server":"pf.napsternetv.com","port":"34141","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vless","name":"CA+加拿大(www.lcr189.com)_1","server":"toronto-arm.oldoracle.shop","port":443,"uuid":"a2c94fa1-c942-459f-b0ea-3939573dae20","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/e94214e145952/"}}
-  - {"type":"vless","name":"CA+加拿大(www.lcr189.com)_2","server":"toronto-arm.oldoracle.shop","port":443,"uuid":"a2c94fa1-c942-459f-b0ea-3939573dae20","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/e94214e145952/"}}
-  - {"type":"vmess","name":"CN中国北京(www.lcr189.com)","server":"47.94.85.209","port":"4433","uuid":"77a286f4-0a0b-4ef7-aaef-a4fff60872e9","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"CN中国山东(www.lcr189.com)","server":"47.104.237.32","port":"50002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"DE德国(www.lcr189.com)_1","ws-opts":{"path":"/guolicheng/de","headers":{"host":"i0.hdslb.com"}},"server":"223.111.122.199","port":"38080","uuid":"8498bfc8-c030-40df-80e8-69f9e06fe16a","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"DE德国(www.lcr189.com)_2","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"172.64.154.150","port":"443","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"DE德国(www.lcr189.com)_3","server":"pf.napsternetv.com","port":"34147","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"DE德国(www.lcr189.com)_4","server":"pf.napsternetv.com","port":"34147","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"FR法国(www.lcr189.com)_1","ws-opts":{"path":"/ray","headers":{"host":"fr2.cfcdn4.xyz"}},"server":"172.64.148.111","port":"443","uuid":"f33957e8-372e-4fba-99ed-f4db32cce9e5","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"FR法国(www.lcr189.com)_2","ws-opts":{"path":"/guolicheng/fr","headers":{"host":"i0.hdslb.com"}},"server":"223.111.122.199","port":"38080","uuid":"8498bfc8-c030-40df-80e8-69f9e06fe16a","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"FR法国(www.lcr189.com)_3","ws-opts":{"path":"/aries","headers":{"host":"fr.cloudflare.quest"}},"server":"www.gov.hk","port":"2086","uuid":"250f4331-8c3e-4b87-a86b-5c5fbf9ddba8","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"FR法国(www.lcr189.com)_4","server":"111.45.22.239","port":"50002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"HK香港(www.lcr189.com)_1","ws-opts":{"path":"/guolicheng/hkhgc","headers":{"host":"www.189.cn"}},"server":"223.111.122.199","port":"38080","uuid":"8498bfc8-c030-40df-80e8-69f9e06fe16a","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"HK+香港(www.lcr189.com)_1","server":"20.247.88.151","port":443,"password":"9010950e-8e09-486a-bf96-3b0cf22097b4","udp":true,"skip-cert-verify":true,"sni":"hk1.sanfen001.pics"}
-  - {"type":"vmess","name":"HK香港(www.lcr189.com)_2","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"tv.cctv.com"}},"server":"data-hk-v1.heisey.cn","port":"50205","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":"1","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"HK香港(www.lcr189.com)_3","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"data-hk-v1.shwjfkw.cn"}},"server":"data-hk-v1.shwjfkw.cn","port":"50207","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":"1","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"HK+香港(www.lcr189.com)_2","server":"hk1.sanfen001.pics","port":443,"password":"9010950e-8e09-486a-bf96-3b0cf22097b4","udp":true,"skip-cert-verify":true,"sni":"hk1.sanfen001.pics"}
-  - {"type":"trojan","name":"HK+香港(www.lcr189.com)_3","server":"20.187.79.78","port":443,"password":"9010950e-8e09-486a-bf96-3b0cf22097b4","udp":true,"skip-cert-verify":true,"sni":"hk1.sanfen001.pics"}
-  - {"type":"vmess","name":"IN印度(www.lcr189.com)","ws-opts":{"path":"/guolicheng/us2","headers":{"host":"www.189.cn"}},"server":"223.111.122.199","port":"38080","uuid":"8498bfc8-c030-40df-80e8-69f9e06fe16a","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"IR伊朗(www.lcr189.com)","ws-opts":{"path":"/citdvws","headers":{"host":"5528.1808.cf"}},"server":"cf.731808.tk","port":"443","uuid":"810b1cf9-dff9-4274-8975-cea0c261132d","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"KR韩国(www.lcr189.com)_1","ws-opts":{"path":"/NkiAUZ","headers":{"host":"apulnion.com"}},"server":"193.123.244.188","port":"443","uuid":"34421e22-1933-4da2-ab05-a8580d6f051b","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"KR韩国(www.lcr189.com)_2","server":"pf.napsternetv.com","port":"34142","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"KR韩国(www.lcr189.com)_3","ws-opts":{"path":"/fastssh/1731390093/6357cedd7a199/","headers":{"host":"sg1.31vpn.com"}},"server":"146.56.162.25","port":"443","uuid":"9dc0c6aa-39a1-46be-9938-85999e3c3498","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vless","name":"KR+韩国(www.lcr189.com)_1","server":"v2ray5.v2rayfree2.xyz","port":443,"uuid":"3dbf8df2-452d-49af-92de-a1789775de9f","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray"}}
-  - {"type":"vless","name":"KR+韩国(www.lcr189.com)_2","server":"v2ray5.v2rayfree2.xyz","port":443,"uuid":"3dbf8df2-452d-49af-92de-a1789775de9f","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/ray"}}
-  - {"type":"vmess","name":"NL荷兰(www.lcr189.com)_1","ws-opts":{"path":"/nl7-EcxxxOvD"},"server":"nl7.aagogo.cf","port":"443","uuid":"10759c14-d72f-346d-8d6a-af349e5ecd69","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"NL荷兰(www.lcr189.com)_2","ws-opts":{"path":"/nl7-EcxxxOvD","headers":{"host":"nl7a.aagogo.cf"}},"server":"nl7a.aagogo.cf","port":"443","uuid":"10759c14-d72f-346d-8d6a-af349e5ecd69","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"PL波兰(www.lcr189.com)","ws-opts":{"path":"/eisasqa","headers":{"host":"foxpol.fovi.tk"}},"server":"cf.fovi.tk","port":"2053","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"RU俄罗斯(www.lcr189.com)","ws-opts":{"path":"/wo.png","headers":{"host":"els200.jklist.ga"}},"server":"els200.jklist.ga","port":"2095","uuid":"e94c706a-235f-4663-e214-edfa052f256e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"SG新加坡(www.lcr189.com)_1","ws-opts":{"path":"/linod","headers":{"host":"lindo.cnabc.eu.org"}},"server":"211.72.35.110","port":"443","uuid":"f6d7b072-de00-45dc-9e24-49f8cf43530d","alterId":"0","cipher":"zero","network":"ws","tls":true}
-  - {"type":"trojan","name":"SG+新加坡(www.lcr189.com)_1","server":"13.214.206.178","port":443,"password":"9010950e-8e09-486a-bf96-3b0cf22097b4","udp":true,"skip-cert-verify":true,"sni":"sg1.sanfen001.pics"}
-  - {"type":"trojan","name":"SG+新加坡(www.lcr189.com)_2","server":"sg2.sanfen001.pics","port":443,"password":"9010950e-8e09-486a-bf96-3b0cf22097b4","udp":true,"skip-cert-verify":true,"sni":"sg1.sanfen001.pics"}
-  - {"type":"vmess","name":"SG新加坡(www.lcr189.com)_2","ws-opts":{"path":"/fastssh/1731390093/6357cedd7a199/","headers":{"host":"sg1.31vpn.com"}},"server":"146.56.149.205","port":"443","uuid":"9dc0c6aa-39a1-46be-9938-85999e3c3498","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"SG新加坡(www.lcr189.com)_3","ws-opts":{"path":"/fastssh/hsjshskkaa/6358a09437359/","headers":{"host":"sg1.31vpn.com"}},"server":"api.qiscus.com","port":"443","uuid":"a9481600-ef36-402a-a0e5-5547bfd7b87c","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"SG新加坡(www.lcr189.com)10_1","ws-opts":{"path":"/linod","headers":{"host":"lindo.cnabc.eu.org"}},"server":"211.72.35.110","port":"443","uuid":"f6d7b072-de00-45dc-9e24-49f8cf43530d","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"SG新加坡(www.lcr189.com)10_2","ws-opts":{"path":"/linod","headers":{"host":"lindo.cnabc.eu.org"}},"server":"220.130.80.179","port":"443","uuid":"f6d7b072-de00-45dc-9e24-49f8cf43530d","alterId":"0","cipher":"auto","network":"ws","tls":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - default_name_1
+      - default_name_2
+      - 🇯🇵_JP_日本
+      - 🇺🇸_US_美国_1
+      - 🇩🇪_DE_德国
+      - 🇷🇺_RU_俄罗斯联邦->🇩🇪_DE_德国
+      - 🇺🇸_US_美国_2
+      - 🇯🇵_JP_日本->🇮🇩_ID_印度尼西亚
+      - CA+加拿大(www.lcr189.com)
+      - CN中国北京(www.lcr189.com)
+      - CN中国广东(www.lcr189.com)_1
+      - CN中国广东(www.lcr189.com)_2
+      - CN中国杭州(www.lcr189.com)
+      - CN中国山东(www.lcr189.com)
+      - DE德国(www.lcr189.com)_1
+      - DE德国(www.lcr189.com)_2
+      - FR+法国(www.lcr189.com)
+      - FR法国(www.lcr189.com)
+      - HK香港(www.lcr189.com)_1
+      - HK+香港(www.lcr189.com)_1
+      - HK+香港(www.lcr189.com)_2
+      - HK香港(www.lcr189.com)_2
+      - HK香港(www.lcr189.com)_3
+      - HK+香港(www.lcr189.com)_3
+      - JP日本(www.lcr189.com)
+      - KR韩国(www.lcr189.com)_1
+      - KR韩国(www.lcr189.com)_2
+      - KR+韩国(www.lcr189.com)_1
+      - KR+韩国(www.lcr189.com)_2
+      - KR韩国(www.lcr189.com)_3
+      - KR+韩国(www.lcr189.com)_3
+      - NL荷兰(www.lcr189.com)
+      - NL+荷兰(www.lcr189.com)
+      - PL波兰(www.lcr189.com)
+      - RU俄罗斯(www.lcr189.com)
+      - SG新加坡(www.lcr189.com)_1
+      - SG新加坡(www.lcr189.com)_2
+      - SG+新加坡(www.lcr189.com)
+      - TUR+土耳其(www.lcr189.com)_1
+      - TUR+土耳其(www.lcr189.com)_2
+      - TW台湾(www.lcr189.com)_1
+      - TW+台湾(www.lcr189.com)_1
+      - TW台湾(www.lcr189.com)_2
+      - TW+台湾(www.lcr189.com)_2
+      - TW台湾(www.lcr189.com)_3
+      - TW+台湾(www.lcr189.com)_3
+      - UK+英国(www.lcr189.com)_1
+      - UK英国(www.lcr189.com)_1
+      - UK英国(www.lcr189.com)_2
+      - UK+英国(www.lcr189.com)_2
+      - UK英国(www.lcr189.com)_3
+      - UK英国(www.lcr189.com)_4
+      - US美国(www.lcr189.com)_1
+      - US美国(www.lcr189.com)_2
+      - US美国(www.lcr189.com)_3
+      - US美国(www.lcr189.com)_4
+      - US美国(www.lcr189.com)_5
+      - US美国(www.lcr189.com)_6
+      - US美国(www.lcr189.com)_7
+      - US美国(www.lcr189.com)_8
+      - US美国(www.lcr189.com)_9
+      - US美国(www.lcr189.com)_10
+      - US美国(www.lcr189.com)_11
+      - US美国(www.lcr189.com)_12
+      - US美国(www.lcr189.com)_13
+      - US+美国(www.lcr189.com)
+      - US美国(www.lcr189.com)_14
+      - US美国(www.lcr189.com)_15
+      - US美国(www.lcr189.com)_16
+      - US美国(www.lcr189.com)_17
+      - US美国(www.lcr189.com)_18
+      - US美国(www.lcr189.com)_19
+      - US美国(www.lcr189.com)_20
+      - US美国(www.lcr189.com)_21
+      - US美国(www.lcr189.com)_22
+      - US美国(www.lcr189.com)_23
+      - US美国(www.lcr189.com)_24
+      - VN+越南(www.lcr189.com)
+      - 泰国(www.lcr189.com)
+      - 🇯🇵日本_1028143
+      - 🇯🇵日本_1028129
+      - 🇸🇬新加坡_1028020
+      - 🇸🇬新加坡_1028293
+      - 🇯🇵[10-30]-🇯🇵-日本-003-43.198.12.229
+      - 🇯🇵-日本东京-52.192.248.205
+      - 🇯🇵-日本东京-52.199.209.73
+      -     🇯🇵-日本-00000000000000000000000000000000000000000000000000000000000024a.rui77.com
+      -     🇯🇵-日本-00000000000000000000000000000000000000000000000000000000000037a.rui77.com
+      -     🇯🇵-日本-00000000000000000000000000000000000000000000000000000000000033a.rui77.com
+      - 🇯🇵-日本-146.56.133.109
+      - 🇯🇵-日本-146.56.155.70
+      - 🇯🇵-日本-146.56.166.153
+      - 🇯🇵-日本-16.kkyun.cyou
+      - 🇯🇵-日本-172.104.125.96
+      - 🇯🇵-日本-1260eea.wz.glados-config.net
+      - 🇯🇵-日本-1260eea.td.glados-config.net
+      - 🇯🇵-日本-13.231.240.122
+      - 🇯🇵-日本-35.77.223.19
+      - 🇯🇵-日本-35.79.220.83
+      - 🇯🇵-日本-47.74.19.41
+      - 🇯🇵-日本-47.74.21.12
+      - 🇯🇵-日本-47.74.33.226
+      - 🇯🇵-日本-47.74.43.158
+      - 🇯🇵-日本-47.74.54.228
+      - 🇯🇵-日本-54.199.24.57
+      - 🇯🇵-日本-m2.pianyijc.top
+      - 🇯🇵-日本-awsjp.mayiyun.shop
+      - 🇯🇵-日本-awskr2.mayiyun.shop
+      - 🇯🇵-日本-aeadjpaes01.xn--z4q48lcvp.com
+      - 🇯🇵-日本-bgroup.node1.v.nodelist-gfwairport.download
+      - 🇯🇵-日本-bgroup.node4.v.nodelist-gfwairport.download
+      - 🇯🇵-日本-jp.333210.xyz
+      - 🇯🇵-日本-jp04-vm0.entry.rwesdhytjuftyhdafsdgfrh.club
+      - 🇯🇵-日本-jp1.wanss.win
+      - 🇯🇵-日本-jp1.wumaojichang.ml
+      - 🇯🇵-日本-jp3.wumaojichang.ml
+      - 🇯🇵-日本-jptws.hotfun.buzz
+      - 🇯🇵-日本-urgjp.hotfun.buzz
+      - 🇯🇵-日本-v31.idcloudhost.de
+      - 🇯🇵-日本-zfsp1.mayiyun.shop
+      - 🇭🇰-香港-154.208.10.62
+      - 🇭🇰-香港-159.100.206.88
+      - 🇭🇰-香港-165.154.5.235
+      - 🇭🇰-香港-18.166.58.46
+      - 🇺🇸-美国-152.228.191.232
+      - '-美洲地区-173.205.94.4'
+      - 🇺🇸-美国加利福尼亚州硅谷-43.153.4.246
+      - 🇺🇸-美国加利福尼亚州硅谷-43.154.34.49
+      - 🇺🇸-美国加利福尼亚州硅谷-tx-xg-2.ienai.xin
+      - 🇺🇸-美国加利福尼亚州硅谷-tchk1.zhangxuan.best
+      - 🇺🇸-美国加利福尼亚州硅谷-tchk3.zhangxuan.best
+      - 🇺🇸-美国加利福尼亚州洛杉矶-41.216.177.148
+      - 🇺🇸-美国加利福尼亚州洛杉矶-us-ca1.qwqjsq.top
+      - 🇺🇸-美国加利福尼亚州洛杉矶-us1.lolvps.xyz
+      - 🇺🇸-美国弗吉尼亚州文特山农场-usv-4.openv2ray.com
+      -     🇺🇸-美国-00000000000000000000000000000000000000000000000000000000000013a.rui77.com
+      -     🇺🇸-美国-00000000000000000000000000000000000000000000000000000000000026a.rui77.com
+      -     🇺🇸-美国-00000000000000000000000000000000000000000000000000000000000039a.rui77.com
+      - 🇺🇸-美国-141.193.213.21
+      - 🇺🇸-美国-15.235.147.186
+      - 🇺🇸-美国-15.235.163.180
+      - 🇺🇸-美国-150.230.199.177
+      - 🇺🇸-美国-152.67.196.3
+      - 🇺🇸-美国-152.67.223.187
+      - 🇺🇸-美国-152.70.88.47
+      - 🇨🇳-加拿大-tw.mayiyun.shop
+      - 🇺🇸-美国-172.64.94.238
+      - 🇩🇪-德国-47.254.175.195
+      - 🇫🇷[10-30]-🇫🇷-法国-001-62.210.254.72
+      - '-亚太地区-103.186.149.132'
+      - '-亚太地区-103.186.149.242'
+      - '-亚太地区-103.186.149.220'
+      - '-亚太地区-1114hk.fans8.xyz'
+      - 🇭🇰-亚太地区-hk-01.proxyvip.top
+      - '-亚太地区-vietnam.hn14.shopvpn.net'
+      - '-亚太地区-vn1.v2-ray.com'
+      - 🇧🇷-巴西-138.118.175.28
+      - '-本机地址-V104.bgpnet.top'
+      - '-本机地址-cf.fovi.tk'
+      - '-本机地址-dlszl.hotfun.buzz'
+      - '-本机地址-hkaz7.xmrth-node.xyz'
+      - '-本机地址-jp02.henet.cyou'
+      - '-本机地址-jpaws006.xmrth-node.xyz'
+      - '-本机地址-jpaz2.xmrth-node.xyz'
+      - '-本机地址-jplin005.xmrth-node.xyz'
+      - 🇵🇭-菲律宾-ph1.vpnjantit.com
+      - 🇻🇳-越南-0001.hcm.genzpn.com
+      - '-非洲地区-102.37.157.62'
+      - 🇲🇾-马来西亚-my2.vpnjantit.com
       - 香港亚马逊-1号
       - 香港HKT-江移|解锁流媒体
       - 香港HKIX-江移|解锁流媒体
@@ -130,85 +395,181 @@ proxy-groups:
       - 【美国】峰值1000M-NetFlix解锁
       - 【纽约】峰值1000MNetFlix解锁
       - 卢森堡
-      - default_name_1
-      - default_name_2
-      - default_name_3
-      - _1
-      - _2
-      - _3
-      - trojan.wefuckgfw.tk:443_1
-      - trojan.wefuckgfw.tk:443_2
-      - trojan.wefuckgfw.tk:443_3
-      - TW台湾(www.lcr189.com)
-      - TW+台湾(www.lcr189.com)
-      - UK英国(www.lcr189.com)_1
-      - UK英国(www.lcr189.com)_2
-      - UK英国(www.lcr189.com)_3
-      - UK英国(www.lcr189.com)_4
-      - UK英国(www.lcr189.com)_5
-      - US美国(www.lcr189.com)_1
-      - US美国(www.lcr189.com)_2
-      - US美国(www.lcr189.com)_3
-      - US美国(www.lcr189.com)_4
-      - US美国(www.lcr189.com)_5
-      - US美国(www.lcr189.com)_6
-      - US美国(www.lcr189.com)_7
-      - US美国(www.lcr189.com)_8
-      - US美国(www.lcr189.com)_9
-      - US美国(www.lcr189.com)_10
-      - US美国(www.lcr189.com)_11
-      - US美国(www.lcr189.com)_12
-      - US美国(www.lcr189.com)_13
-      - US美国(www.lcr189.com)_14
-      - US+美国(www.lcr189.com)
-      - US美国(www.lcr189.com)_15
-      - US美国(www.lcr189.com)_16
-      - US美国(www.lcr189.com)_17
-      - VN越南(www.lcr189.com)_1
-      - VN越南(www.lcr189.com)_2
-      - _RU_俄罗斯联邦->🇳🇱_NL_荷兰
-      - CA+加拿大(www.lcr189.com)_1
-      - CA+加拿大(www.lcr189.com)_2
-      - CN中国北京(www.lcr189.com)
-      - CN中国山东(www.lcr189.com)
-      - DE德国(www.lcr189.com)_1
-      - DE德国(www.lcr189.com)_2
-      - DE德国(www.lcr189.com)_3
-      - DE德国(www.lcr189.com)_4
-      - FR法国(www.lcr189.com)_1
-      - FR法国(www.lcr189.com)_2
-      - FR法国(www.lcr189.com)_3
-      - FR法国(www.lcr189.com)_4
-      - HK香港(www.lcr189.com)_1
-      - HK+香港(www.lcr189.com)_1
-      - HK香港(www.lcr189.com)_2
-      - HK香港(www.lcr189.com)_3
-      - HK+香港(www.lcr189.com)_2
-      - HK+香港(www.lcr189.com)_3
-      - IN印度(www.lcr189.com)
-      - IR伊朗(www.lcr189.com)
-      - KR韩国(www.lcr189.com)_1
-      - KR韩国(www.lcr189.com)_2
-      - KR韩国(www.lcr189.com)_3
-      - KR+韩国(www.lcr189.com)_1
-      - KR+韩国(www.lcr189.com)_2
-      - NL荷兰(www.lcr189.com)_1
-      - NL荷兰(www.lcr189.com)_2
-      - PL波兰(www.lcr189.com)
-      - RU俄罗斯(www.lcr189.com)
-      - SG新加坡(www.lcr189.com)_1
-      - SG+新加坡(www.lcr189.com)_1
-      - SG+新加坡(www.lcr189.com)_2
-      - SG新加坡(www.lcr189.com)_2
-      - SG新加坡(www.lcr189.com)_3
-      - SG新加坡(www.lcr189.com)10_1
-      - SG新加坡(www.lcr189.com)10_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - default_name_1
+      - default_name_2
+      - 🇯🇵_JP_日本
+      - 🇺🇸_US_美国_1
+      - 🇩🇪_DE_德国
+      - 🇷🇺_RU_俄罗斯联邦->🇩🇪_DE_德国
+      - 🇺🇸_US_美国_2
+      - 🇯🇵_JP_日本->🇮🇩_ID_印度尼西亚
+      - CA+加拿大(www.lcr189.com)
+      - CN中国北京(www.lcr189.com)
+      - CN中国广东(www.lcr189.com)_1
+      - CN中国广东(www.lcr189.com)_2
+      - CN中国杭州(www.lcr189.com)
+      - CN中国山东(www.lcr189.com)
+      - DE德国(www.lcr189.com)_1
+      - DE德国(www.lcr189.com)_2
+      - FR+法国(www.lcr189.com)
+      - FR法国(www.lcr189.com)
+      - HK香港(www.lcr189.com)_1
+      - HK+香港(www.lcr189.com)_1
+      - HK+香港(www.lcr189.com)_2
+      - HK香港(www.lcr189.com)_2
+      - HK香港(www.lcr189.com)_3
+      - HK+香港(www.lcr189.com)_3
+      - JP日本(www.lcr189.com)
+      - KR韩国(www.lcr189.com)_1
+      - KR韩国(www.lcr189.com)_2
+      - KR+韩国(www.lcr189.com)_1
+      - KR+韩国(www.lcr189.com)_2
+      - KR韩国(www.lcr189.com)_3
+      - KR+韩国(www.lcr189.com)_3
+      - NL荷兰(www.lcr189.com)
+      - NL+荷兰(www.lcr189.com)
+      - PL波兰(www.lcr189.com)
+      - RU俄罗斯(www.lcr189.com)
+      - SG新加坡(www.lcr189.com)_1
+      - SG新加坡(www.lcr189.com)_2
+      - SG+新加坡(www.lcr189.com)
+      - TUR+土耳其(www.lcr189.com)_1
+      - TUR+土耳其(www.lcr189.com)_2
+      - TW台湾(www.lcr189.com)_1
+      - TW+台湾(www.lcr189.com)_1
+      - TW台湾(www.lcr189.com)_2
+      - TW+台湾(www.lcr189.com)_2
+      - TW台湾(www.lcr189.com)_3
+      - TW+台湾(www.lcr189.com)_3
+      - UK+英国(www.lcr189.com)_1
+      - UK英国(www.lcr189.com)_1
+      - UK英国(www.lcr189.com)_2
+      - UK+英国(www.lcr189.com)_2
+      - UK英国(www.lcr189.com)_3
+      - UK英国(www.lcr189.com)_4
+      - US美国(www.lcr189.com)_1
+      - US美国(www.lcr189.com)_2
+      - US美国(www.lcr189.com)_3
+      - US美国(www.lcr189.com)_4
+      - US美国(www.lcr189.com)_5
+      - US美国(www.lcr189.com)_6
+      - US美国(www.lcr189.com)_7
+      - US美国(www.lcr189.com)_8
+      - US美国(www.lcr189.com)_9
+      - US美国(www.lcr189.com)_10
+      - US美国(www.lcr189.com)_11
+      - US美国(www.lcr189.com)_12
+      - US美国(www.lcr189.com)_13
+      - US+美国(www.lcr189.com)
+      - US美国(www.lcr189.com)_14
+      - US美国(www.lcr189.com)_15
+      - US美国(www.lcr189.com)_16
+      - US美国(www.lcr189.com)_17
+      - US美国(www.lcr189.com)_18
+      - US美国(www.lcr189.com)_19
+      - US美国(www.lcr189.com)_20
+      - US美国(www.lcr189.com)_21
+      - US美国(www.lcr189.com)_22
+      - US美国(www.lcr189.com)_23
+      - US美国(www.lcr189.com)_24
+      - VN+越南(www.lcr189.com)
+      - 泰国(www.lcr189.com)
+      - 🇯🇵日本_1028143
+      - 🇯🇵日本_1028129
+      - 🇸🇬新加坡_1028020
+      - 🇸🇬新加坡_1028293
+      - 🇯🇵[10-30]-🇯🇵-日本-003-43.198.12.229
+      - 🇯🇵-日本东京-52.192.248.205
+      - 🇯🇵-日本东京-52.199.209.73
+      -     🇯🇵-日本-00000000000000000000000000000000000000000000000000000000000024a.rui77.com
+      -     🇯🇵-日本-00000000000000000000000000000000000000000000000000000000000037a.rui77.com
+      -     🇯🇵-日本-00000000000000000000000000000000000000000000000000000000000033a.rui77.com
+      - 🇯🇵-日本-146.56.133.109
+      - 🇯🇵-日本-146.56.155.70
+      - 🇯🇵-日本-146.56.166.153
+      - 🇯🇵-日本-16.kkyun.cyou
+      - 🇯🇵-日本-172.104.125.96
+      - 🇯🇵-日本-1260eea.wz.glados-config.net
+      - 🇯🇵-日本-1260eea.td.glados-config.net
+      - 🇯🇵-日本-13.231.240.122
+      - 🇯🇵-日本-35.77.223.19
+      - 🇯🇵-日本-35.79.220.83
+      - 🇯🇵-日本-47.74.19.41
+      - 🇯🇵-日本-47.74.21.12
+      - 🇯🇵-日本-47.74.33.226
+      - 🇯🇵-日本-47.74.43.158
+      - 🇯🇵-日本-47.74.54.228
+      - 🇯🇵-日本-54.199.24.57
+      - 🇯🇵-日本-m2.pianyijc.top
+      - 🇯🇵-日本-awsjp.mayiyun.shop
+      - 🇯🇵-日本-awskr2.mayiyun.shop
+      - 🇯🇵-日本-aeadjpaes01.xn--z4q48lcvp.com
+      - 🇯🇵-日本-bgroup.node1.v.nodelist-gfwairport.download
+      - 🇯🇵-日本-bgroup.node4.v.nodelist-gfwairport.download
+      - 🇯🇵-日本-jp.333210.xyz
+      - 🇯🇵-日本-jp04-vm0.entry.rwesdhytjuftyhdafsdgfrh.club
+      - 🇯🇵-日本-jp1.wanss.win
+      - 🇯🇵-日本-jp1.wumaojichang.ml
+      - 🇯🇵-日本-jp3.wumaojichang.ml
+      - 🇯🇵-日本-jptws.hotfun.buzz
+      - 🇯🇵-日本-urgjp.hotfun.buzz
+      - 🇯🇵-日本-v31.idcloudhost.de
+      - 🇯🇵-日本-zfsp1.mayiyun.shop
+      - 🇭🇰-香港-154.208.10.62
+      - 🇭🇰-香港-159.100.206.88
+      - 🇭🇰-香港-165.154.5.235
+      - 🇭🇰-香港-18.166.58.46
+      - 🇺🇸-美国-152.228.191.232
+      - '-美洲地区-173.205.94.4'
+      - 🇺🇸-美国加利福尼亚州硅谷-43.153.4.246
+      - 🇺🇸-美国加利福尼亚州硅谷-43.154.34.49
+      - 🇺🇸-美国加利福尼亚州硅谷-tx-xg-2.ienai.xin
+      - 🇺🇸-美国加利福尼亚州硅谷-tchk1.zhangxuan.best
+      - 🇺🇸-美国加利福尼亚州硅谷-tchk3.zhangxuan.best
+      - 🇺🇸-美国加利福尼亚州洛杉矶-41.216.177.148
+      - 🇺🇸-美国加利福尼亚州洛杉矶-us-ca1.qwqjsq.top
+      - 🇺🇸-美国加利福尼亚州洛杉矶-us1.lolvps.xyz
+      - 🇺🇸-美国弗吉尼亚州文特山农场-usv-4.openv2ray.com
+      -     🇺🇸-美国-00000000000000000000000000000000000000000000000000000000000013a.rui77.com
+      -     🇺🇸-美国-00000000000000000000000000000000000000000000000000000000000026a.rui77.com
+      -     🇺🇸-美国-00000000000000000000000000000000000000000000000000000000000039a.rui77.com
+      - 🇺🇸-美国-141.193.213.21
+      - 🇺🇸-美国-15.235.147.186
+      - 🇺🇸-美国-15.235.163.180
+      - 🇺🇸-美国-150.230.199.177
+      - 🇺🇸-美国-152.67.196.3
+      - 🇺🇸-美国-152.67.223.187
+      - 🇺🇸-美国-152.70.88.47
+      - 🇨🇳-加拿大-tw.mayiyun.shop
+      - 🇺🇸-美国-172.64.94.238
+      - 🇩🇪-德国-47.254.175.195
+      - 🇫🇷[10-30]-🇫🇷-法国-001-62.210.254.72
+      - '-亚太地区-103.186.149.132'
+      - '-亚太地区-103.186.149.242'
+      - '-亚太地区-103.186.149.220'
+      - '-亚太地区-1114hk.fans8.xyz'
+      - 🇭🇰-亚太地区-hk-01.proxyvip.top
+      - '-亚太地区-vietnam.hn14.shopvpn.net'
+      - '-亚太地区-vn1.v2-ray.com'
+      - 🇧🇷-巴西-138.118.175.28
+      - '-本机地址-V104.bgpnet.top'
+      - '-本机地址-cf.fovi.tk'
+      - '-本机地址-dlszl.hotfun.buzz'
+      - '-本机地址-hkaz7.xmrth-node.xyz'
+      - '-本机地址-jp02.henet.cyou'
+      - '-本机地址-jpaws006.xmrth-node.xyz'
+      - '-本机地址-jpaz2.xmrth-node.xyz'
+      - '-本机地址-jplin005.xmrth-node.xyz'
+      - 🇵🇭-菲律宾-ph1.vpnjantit.com
+      - 🇻🇳-越南-0001.hcm.genzpn.com
+      - '-非洲地区-102.37.157.62'
+      - 🇲🇾-马来西亚-my2.vpnjantit.com
       - 香港亚马逊-1号
       - 香港HKT-江移|解锁流媒体
       - 香港HKIX-江移|解锁流媒体
@@ -232,85 +593,181 @@ proxy-groups:
       - 【美国】峰值1000M-NetFlix解锁
       - 【纽约】峰值1000MNetFlix解锁
       - 卢森堡
-      - default_name_1
-      - default_name_2
-      - default_name_3
-      - _1
-      - _2
-      - _3
-      - trojan.wefuckgfw.tk:443_1
-      - trojan.wefuckgfw.tk:443_2
-      - trojan.wefuckgfw.tk:443_3
-      - TW台湾(www.lcr189.com)
-      - TW+台湾(www.lcr189.com)
-      - UK英国(www.lcr189.com)_1
-      - UK英国(www.lcr189.com)_2
-      - UK英国(www.lcr189.com)_3
-      - UK英国(www.lcr189.com)_4
-      - UK英国(www.lcr189.com)_5
-      - US美国(www.lcr189.com)_1
-      - US美国(www.lcr189.com)_2
-      - US美国(www.lcr189.com)_3
-      - US美国(www.lcr189.com)_4
-      - US美国(www.lcr189.com)_5
-      - US美国(www.lcr189.com)_6
-      - US美国(www.lcr189.com)_7
-      - US美国(www.lcr189.com)_8
-      - US美国(www.lcr189.com)_9
-      - US美国(www.lcr189.com)_10
-      - US美国(www.lcr189.com)_11
-      - US美国(www.lcr189.com)_12
-      - US美国(www.lcr189.com)_13
-      - US美国(www.lcr189.com)_14
-      - US+美国(www.lcr189.com)
-      - US美国(www.lcr189.com)_15
-      - US美国(www.lcr189.com)_16
-      - US美国(www.lcr189.com)_17
-      - VN越南(www.lcr189.com)_1
-      - VN越南(www.lcr189.com)_2
-      - _RU_俄罗斯联邦->🇳🇱_NL_荷兰
-      - CA+加拿大(www.lcr189.com)_1
-      - CA+加拿大(www.lcr189.com)_2
-      - CN中国北京(www.lcr189.com)
-      - CN中国山东(www.lcr189.com)
-      - DE德国(www.lcr189.com)_1
-      - DE德国(www.lcr189.com)_2
-      - DE德国(www.lcr189.com)_3
-      - DE德国(www.lcr189.com)_4
-      - FR法国(www.lcr189.com)_1
-      - FR法国(www.lcr189.com)_2
-      - FR法国(www.lcr189.com)_3
-      - FR法国(www.lcr189.com)_4
-      - HK香港(www.lcr189.com)_1
-      - HK+香港(www.lcr189.com)_1
-      - HK香港(www.lcr189.com)_2
-      - HK香港(www.lcr189.com)_3
-      - HK+香港(www.lcr189.com)_2
-      - HK+香港(www.lcr189.com)_3
-      - IN印度(www.lcr189.com)
-      - IR伊朗(www.lcr189.com)
-      - KR韩国(www.lcr189.com)_1
-      - KR韩国(www.lcr189.com)_2
-      - KR韩国(www.lcr189.com)_3
-      - KR+韩国(www.lcr189.com)_1
-      - KR+韩国(www.lcr189.com)_2
-      - NL荷兰(www.lcr189.com)_1
-      - NL荷兰(www.lcr189.com)_2
-      - PL波兰(www.lcr189.com)
-      - RU俄罗斯(www.lcr189.com)
-      - SG新加坡(www.lcr189.com)_1
-      - SG+新加坡(www.lcr189.com)_1
-      - SG+新加坡(www.lcr189.com)_2
-      - SG新加坡(www.lcr189.com)_2
-      - SG新加坡(www.lcr189.com)_3
-      - SG新加坡(www.lcr189.com)10_1
-      - SG新加坡(www.lcr189.com)10_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - default_name_1
+      - default_name_2
+      - 🇯🇵_JP_日本
+      - 🇺🇸_US_美国_1
+      - 🇩🇪_DE_德国
+      - 🇷🇺_RU_俄罗斯联邦->🇩🇪_DE_德国
+      - 🇺🇸_US_美国_2
+      - 🇯🇵_JP_日本->🇮🇩_ID_印度尼西亚
+      - CA+加拿大(www.lcr189.com)
+      - CN中国北京(www.lcr189.com)
+      - CN中国广东(www.lcr189.com)_1
+      - CN中国广东(www.lcr189.com)_2
+      - CN中国杭州(www.lcr189.com)
+      - CN中国山东(www.lcr189.com)
+      - DE德国(www.lcr189.com)_1
+      - DE德国(www.lcr189.com)_2
+      - FR+法国(www.lcr189.com)
+      - FR法国(www.lcr189.com)
+      - HK香港(www.lcr189.com)_1
+      - HK+香港(www.lcr189.com)_1
+      - HK+香港(www.lcr189.com)_2
+      - HK香港(www.lcr189.com)_2
+      - HK香港(www.lcr189.com)_3
+      - HK+香港(www.lcr189.com)_3
+      - JP日本(www.lcr189.com)
+      - KR韩国(www.lcr189.com)_1
+      - KR韩国(www.lcr189.com)_2
+      - KR+韩国(www.lcr189.com)_1
+      - KR+韩国(www.lcr189.com)_2
+      - KR韩国(www.lcr189.com)_3
+      - KR+韩国(www.lcr189.com)_3
+      - NL荷兰(www.lcr189.com)
+      - NL+荷兰(www.lcr189.com)
+      - PL波兰(www.lcr189.com)
+      - RU俄罗斯(www.lcr189.com)
+      - SG新加坡(www.lcr189.com)_1
+      - SG新加坡(www.lcr189.com)_2
+      - SG+新加坡(www.lcr189.com)
+      - TUR+土耳其(www.lcr189.com)_1
+      - TUR+土耳其(www.lcr189.com)_2
+      - TW台湾(www.lcr189.com)_1
+      - TW+台湾(www.lcr189.com)_1
+      - TW台湾(www.lcr189.com)_2
+      - TW+台湾(www.lcr189.com)_2
+      - TW台湾(www.lcr189.com)_3
+      - TW+台湾(www.lcr189.com)_3
+      - UK+英国(www.lcr189.com)_1
+      - UK英国(www.lcr189.com)_1
+      - UK英国(www.lcr189.com)_2
+      - UK+英国(www.lcr189.com)_2
+      - UK英国(www.lcr189.com)_3
+      - UK英国(www.lcr189.com)_4
+      - US美国(www.lcr189.com)_1
+      - US美国(www.lcr189.com)_2
+      - US美国(www.lcr189.com)_3
+      - US美国(www.lcr189.com)_4
+      - US美国(www.lcr189.com)_5
+      - US美国(www.lcr189.com)_6
+      - US美国(www.lcr189.com)_7
+      - US美国(www.lcr189.com)_8
+      - US美国(www.lcr189.com)_9
+      - US美国(www.lcr189.com)_10
+      - US美国(www.lcr189.com)_11
+      - US美国(www.lcr189.com)_12
+      - US美国(www.lcr189.com)_13
+      - US+美国(www.lcr189.com)
+      - US美国(www.lcr189.com)_14
+      - US美国(www.lcr189.com)_15
+      - US美国(www.lcr189.com)_16
+      - US美国(www.lcr189.com)_17
+      - US美国(www.lcr189.com)_18
+      - US美国(www.lcr189.com)_19
+      - US美国(www.lcr189.com)_20
+      - US美国(www.lcr189.com)_21
+      - US美国(www.lcr189.com)_22
+      - US美国(www.lcr189.com)_23
+      - US美国(www.lcr189.com)_24
+      - VN+越南(www.lcr189.com)
+      - 泰国(www.lcr189.com)
+      - 🇯🇵日本_1028143
+      - 🇯🇵日本_1028129
+      - 🇸🇬新加坡_1028020
+      - 🇸🇬新加坡_1028293
+      - 🇯🇵[10-30]-🇯🇵-日本-003-43.198.12.229
+      - 🇯🇵-日本东京-52.192.248.205
+      - 🇯🇵-日本东京-52.199.209.73
+      -     🇯🇵-日本-00000000000000000000000000000000000000000000000000000000000024a.rui77.com
+      -     🇯🇵-日本-00000000000000000000000000000000000000000000000000000000000037a.rui77.com
+      -     🇯🇵-日本-00000000000000000000000000000000000000000000000000000000000033a.rui77.com
+      - 🇯🇵-日本-146.56.133.109
+      - 🇯🇵-日本-146.56.155.70
+      - 🇯🇵-日本-146.56.166.153
+      - 🇯🇵-日本-16.kkyun.cyou
+      - 🇯🇵-日本-172.104.125.96
+      - 🇯🇵-日本-1260eea.wz.glados-config.net
+      - 🇯🇵-日本-1260eea.td.glados-config.net
+      - 🇯🇵-日本-13.231.240.122
+      - 🇯🇵-日本-35.77.223.19
+      - 🇯🇵-日本-35.79.220.83
+      - 🇯🇵-日本-47.74.19.41
+      - 🇯🇵-日本-47.74.21.12
+      - 🇯🇵-日本-47.74.33.226
+      - 🇯🇵-日本-47.74.43.158
+      - 🇯🇵-日本-47.74.54.228
+      - 🇯🇵-日本-54.199.24.57
+      - 🇯🇵-日本-m2.pianyijc.top
+      - 🇯🇵-日本-awsjp.mayiyun.shop
+      - 🇯🇵-日本-awskr2.mayiyun.shop
+      - 🇯🇵-日本-aeadjpaes01.xn--z4q48lcvp.com
+      - 🇯🇵-日本-bgroup.node1.v.nodelist-gfwairport.download
+      - 🇯🇵-日本-bgroup.node4.v.nodelist-gfwairport.download
+      - 🇯🇵-日本-jp.333210.xyz
+      - 🇯🇵-日本-jp04-vm0.entry.rwesdhytjuftyhdafsdgfrh.club
+      - 🇯🇵-日本-jp1.wanss.win
+      - 🇯🇵-日本-jp1.wumaojichang.ml
+      - 🇯🇵-日本-jp3.wumaojichang.ml
+      - 🇯🇵-日本-jptws.hotfun.buzz
+      - 🇯🇵-日本-urgjp.hotfun.buzz
+      - 🇯🇵-日本-v31.idcloudhost.de
+      - 🇯🇵-日本-zfsp1.mayiyun.shop
+      - 🇭🇰-香港-154.208.10.62
+      - 🇭🇰-香港-159.100.206.88
+      - 🇭🇰-香港-165.154.5.235
+      - 🇭🇰-香港-18.166.58.46
+      - 🇺🇸-美国-152.228.191.232
+      - '-美洲地区-173.205.94.4'
+      - 🇺🇸-美国加利福尼亚州硅谷-43.153.4.246
+      - 🇺🇸-美国加利福尼亚州硅谷-43.154.34.49
+      - 🇺🇸-美国加利福尼亚州硅谷-tx-xg-2.ienai.xin
+      - 🇺🇸-美国加利福尼亚州硅谷-tchk1.zhangxuan.best
+      - 🇺🇸-美国加利福尼亚州硅谷-tchk3.zhangxuan.best
+      - 🇺🇸-美国加利福尼亚州洛杉矶-41.216.177.148
+      - 🇺🇸-美国加利福尼亚州洛杉矶-us-ca1.qwqjsq.top
+      - 🇺🇸-美国加利福尼亚州洛杉矶-us1.lolvps.xyz
+      - 🇺🇸-美国弗吉尼亚州文特山农场-usv-4.openv2ray.com
+      -     🇺🇸-美国-00000000000000000000000000000000000000000000000000000000000013a.rui77.com
+      -     🇺🇸-美国-00000000000000000000000000000000000000000000000000000000000026a.rui77.com
+      -     🇺🇸-美国-00000000000000000000000000000000000000000000000000000000000039a.rui77.com
+      - 🇺🇸-美国-141.193.213.21
+      - 🇺🇸-美国-15.235.147.186
+      - 🇺🇸-美国-15.235.163.180
+      - 🇺🇸-美国-150.230.199.177
+      - 🇺🇸-美国-152.67.196.3
+      - 🇺🇸-美国-152.67.223.187
+      - 🇺🇸-美国-152.70.88.47
+      - 🇨🇳-加拿大-tw.mayiyun.shop
+      - 🇺🇸-美国-172.64.94.238
+      - 🇩🇪-德国-47.254.175.195
+      - 🇫🇷[10-30]-🇫🇷-法国-001-62.210.254.72
+      - '-亚太地区-103.186.149.132'
+      - '-亚太地区-103.186.149.242'
+      - '-亚太地区-103.186.149.220'
+      - '-亚太地区-1114hk.fans8.xyz'
+      - 🇭🇰-亚太地区-hk-01.proxyvip.top
+      - '-亚太地区-vietnam.hn14.shopvpn.net'
+      - '-亚太地区-vn1.v2-ray.com'
+      - 🇧🇷-巴西-138.118.175.28
+      - '-本机地址-V104.bgpnet.top'
+      - '-本机地址-cf.fovi.tk'
+      - '-本机地址-dlszl.hotfun.buzz'
+      - '-本机地址-hkaz7.xmrth-node.xyz'
+      - '-本机地址-jp02.henet.cyou'
+      - '-本机地址-jpaws006.xmrth-node.xyz'
+      - '-本机地址-jpaz2.xmrth-node.xyz'
+      - '-本机地址-jplin005.xmrth-node.xyz'
+      - 🇵🇭-菲律宾-ph1.vpnjantit.com
+      - 🇻🇳-越南-0001.hcm.genzpn.com
+      - '-非洲地区-102.37.157.62'
+      - 🇲🇾-马来西亚-my2.vpnjantit.com
       - 香港亚马逊-1号
       - 香港HKT-江移|解锁流媒体
       - 香港HKIX-江移|解锁流媒体
@@ -334,84 +791,180 @@ proxy-groups:
       - 【美国】峰值1000M-NetFlix解锁
       - 【纽约】峰值1000MNetFlix解锁
       - 卢森堡
-      - default_name_1
-      - default_name_2
-      - default_name_3
-      - _1
-      - _2
-      - _3
-      - trojan.wefuckgfw.tk:443_1
-      - trojan.wefuckgfw.tk:443_2
-      - trojan.wefuckgfw.tk:443_3
-      - TW台湾(www.lcr189.com)
-      - TW+台湾(www.lcr189.com)
-      - UK英国(www.lcr189.com)_1
-      - UK英国(www.lcr189.com)_2
-      - UK英国(www.lcr189.com)_3
-      - UK英国(www.lcr189.com)_4
-      - UK英国(www.lcr189.com)_5
-      - US美国(www.lcr189.com)_1
-      - US美国(www.lcr189.com)_2
-      - US美国(www.lcr189.com)_3
-      - US美国(www.lcr189.com)_4
-      - US美国(www.lcr189.com)_5
-      - US美国(www.lcr189.com)_6
-      - US美国(www.lcr189.com)_7
-      - US美国(www.lcr189.com)_8
-      - US美国(www.lcr189.com)_9
-      - US美国(www.lcr189.com)_10
-      - US美国(www.lcr189.com)_11
-      - US美国(www.lcr189.com)_12
-      - US美国(www.lcr189.com)_13
-      - US美国(www.lcr189.com)_14
-      - US+美国(www.lcr189.com)
-      - US美国(www.lcr189.com)_15
-      - US美国(www.lcr189.com)_16
-      - US美国(www.lcr189.com)_17
-      - VN越南(www.lcr189.com)_1
-      - VN越南(www.lcr189.com)_2
-      - _RU_俄罗斯联邦->🇳🇱_NL_荷兰
-      - CA+加拿大(www.lcr189.com)_1
-      - CA+加拿大(www.lcr189.com)_2
-      - CN中国北京(www.lcr189.com)
-      - CN中国山东(www.lcr189.com)
-      - DE德国(www.lcr189.com)_1
-      - DE德国(www.lcr189.com)_2
-      - DE德国(www.lcr189.com)_3
-      - DE德国(www.lcr189.com)_4
-      - FR法国(www.lcr189.com)_1
-      - FR法国(www.lcr189.com)_2
-      - FR法国(www.lcr189.com)_3
-      - FR法国(www.lcr189.com)_4
-      - HK香港(www.lcr189.com)_1
-      - HK+香港(www.lcr189.com)_1
-      - HK香港(www.lcr189.com)_2
-      - HK香港(www.lcr189.com)_3
-      - HK+香港(www.lcr189.com)_2
-      - HK+香港(www.lcr189.com)_3
-      - IN印度(www.lcr189.com)
-      - IR伊朗(www.lcr189.com)
-      - KR韩国(www.lcr189.com)_1
-      - KR韩国(www.lcr189.com)_2
-      - KR韩国(www.lcr189.com)_3
-      - KR+韩国(www.lcr189.com)_1
-      - KR+韩国(www.lcr189.com)_2
-      - NL荷兰(www.lcr189.com)_1
-      - NL荷兰(www.lcr189.com)_2
-      - PL波兰(www.lcr189.com)
-      - RU俄罗斯(www.lcr189.com)
-      - SG新加坡(www.lcr189.com)_1
-      - SG+新加坡(www.lcr189.com)_1
-      - SG+新加坡(www.lcr189.com)_2
-      - SG新加坡(www.lcr189.com)_2
-      - SG新加坡(www.lcr189.com)_3
-      - SG新加坡(www.lcr189.com)10_1
-      - SG新加坡(www.lcr189.com)10_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - default_name_1
+      - default_name_2
+      - 🇯🇵_JP_日本
+      - 🇺🇸_US_美国_1
+      - 🇩🇪_DE_德国
+      - 🇷🇺_RU_俄罗斯联邦->🇩🇪_DE_德国
+      - 🇺🇸_US_美国_2
+      - 🇯🇵_JP_日本->🇮🇩_ID_印度尼西亚
+      - CA+加拿大(www.lcr189.com)
+      - CN中国北京(www.lcr189.com)
+      - CN中国广东(www.lcr189.com)_1
+      - CN中国广东(www.lcr189.com)_2
+      - CN中国杭州(www.lcr189.com)
+      - CN中国山东(www.lcr189.com)
+      - DE德国(www.lcr189.com)_1
+      - DE德国(www.lcr189.com)_2
+      - FR+法国(www.lcr189.com)
+      - FR法国(www.lcr189.com)
+      - HK香港(www.lcr189.com)_1
+      - HK+香港(www.lcr189.com)_1
+      - HK+香港(www.lcr189.com)_2
+      - HK香港(www.lcr189.com)_2
+      - HK香港(www.lcr189.com)_3
+      - HK+香港(www.lcr189.com)_3
+      - JP日本(www.lcr189.com)
+      - KR韩国(www.lcr189.com)_1
+      - KR韩国(www.lcr189.com)_2
+      - KR+韩国(www.lcr189.com)_1
+      - KR+韩国(www.lcr189.com)_2
+      - KR韩国(www.lcr189.com)_3
+      - KR+韩国(www.lcr189.com)_3
+      - NL荷兰(www.lcr189.com)
+      - NL+荷兰(www.lcr189.com)
+      - PL波兰(www.lcr189.com)
+      - RU俄罗斯(www.lcr189.com)
+      - SG新加坡(www.lcr189.com)_1
+      - SG新加坡(www.lcr189.com)_2
+      - SG+新加坡(www.lcr189.com)
+      - TUR+土耳其(www.lcr189.com)_1
+      - TUR+土耳其(www.lcr189.com)_2
+      - TW台湾(www.lcr189.com)_1
+      - TW+台湾(www.lcr189.com)_1
+      - TW台湾(www.lcr189.com)_2
+      - TW+台湾(www.lcr189.com)_2
+      - TW台湾(www.lcr189.com)_3
+      - TW+台湾(www.lcr189.com)_3
+      - UK+英国(www.lcr189.com)_1
+      - UK英国(www.lcr189.com)_1
+      - UK英国(www.lcr189.com)_2
+      - UK+英国(www.lcr189.com)_2
+      - UK英国(www.lcr189.com)_3
+      - UK英国(www.lcr189.com)_4
+      - US美国(www.lcr189.com)_1
+      - US美国(www.lcr189.com)_2
+      - US美国(www.lcr189.com)_3
+      - US美国(www.lcr189.com)_4
+      - US美国(www.lcr189.com)_5
+      - US美国(www.lcr189.com)_6
+      - US美国(www.lcr189.com)_7
+      - US美国(www.lcr189.com)_8
+      - US美国(www.lcr189.com)_9
+      - US美国(www.lcr189.com)_10
+      - US美国(www.lcr189.com)_11
+      - US美国(www.lcr189.com)_12
+      - US美国(www.lcr189.com)_13
+      - US+美国(www.lcr189.com)
+      - US美国(www.lcr189.com)_14
+      - US美国(www.lcr189.com)_15
+      - US美国(www.lcr189.com)_16
+      - US美国(www.lcr189.com)_17
+      - US美国(www.lcr189.com)_18
+      - US美国(www.lcr189.com)_19
+      - US美国(www.lcr189.com)_20
+      - US美国(www.lcr189.com)_21
+      - US美国(www.lcr189.com)_22
+      - US美国(www.lcr189.com)_23
+      - US美国(www.lcr189.com)_24
+      - VN+越南(www.lcr189.com)
+      - 泰国(www.lcr189.com)
+      - 🇯🇵日本_1028143
+      - 🇯🇵日本_1028129
+      - 🇸🇬新加坡_1028020
+      - 🇸🇬新加坡_1028293
+      - 🇯🇵[10-30]-🇯🇵-日本-003-43.198.12.229
+      - 🇯🇵-日本东京-52.192.248.205
+      - 🇯🇵-日本东京-52.199.209.73
+      -     🇯🇵-日本-00000000000000000000000000000000000000000000000000000000000024a.rui77.com
+      -     🇯🇵-日本-00000000000000000000000000000000000000000000000000000000000037a.rui77.com
+      -     🇯🇵-日本-00000000000000000000000000000000000000000000000000000000000033a.rui77.com
+      - 🇯🇵-日本-146.56.133.109
+      - 🇯🇵-日本-146.56.155.70
+      - 🇯🇵-日本-146.56.166.153
+      - 🇯🇵-日本-16.kkyun.cyou
+      - 🇯🇵-日本-172.104.125.96
+      - 🇯🇵-日本-1260eea.wz.glados-config.net
+      - 🇯🇵-日本-1260eea.td.glados-config.net
+      - 🇯🇵-日本-13.231.240.122
+      - 🇯🇵-日本-35.77.223.19
+      - 🇯🇵-日本-35.79.220.83
+      - 🇯🇵-日本-47.74.19.41
+      - 🇯🇵-日本-47.74.21.12
+      - 🇯🇵-日本-47.74.33.226
+      - 🇯🇵-日本-47.74.43.158
+      - 🇯🇵-日本-47.74.54.228
+      - 🇯🇵-日本-54.199.24.57
+      - 🇯🇵-日本-m2.pianyijc.top
+      - 🇯🇵-日本-awsjp.mayiyun.shop
+      - 🇯🇵-日本-awskr2.mayiyun.shop
+      - 🇯🇵-日本-aeadjpaes01.xn--z4q48lcvp.com
+      - 🇯🇵-日本-bgroup.node1.v.nodelist-gfwairport.download
+      - 🇯🇵-日本-bgroup.node4.v.nodelist-gfwairport.download
+      - 🇯🇵-日本-jp.333210.xyz
+      - 🇯🇵-日本-jp04-vm0.entry.rwesdhytjuftyhdafsdgfrh.club
+      - 🇯🇵-日本-jp1.wanss.win
+      - 🇯🇵-日本-jp1.wumaojichang.ml
+      - 🇯🇵-日本-jp3.wumaojichang.ml
+      - 🇯🇵-日本-jptws.hotfun.buzz
+      - 🇯🇵-日本-urgjp.hotfun.buzz
+      - 🇯🇵-日本-v31.idcloudhost.de
+      - 🇯🇵-日本-zfsp1.mayiyun.shop
+      - 🇭🇰-香港-154.208.10.62
+      - 🇭🇰-香港-159.100.206.88
+      - 🇭🇰-香港-165.154.5.235
+      - 🇭🇰-香港-18.166.58.46
+      - 🇺🇸-美国-152.228.191.232
+      - '-美洲地区-173.205.94.4'
+      - 🇺🇸-美国加利福尼亚州硅谷-43.153.4.246
+      - 🇺🇸-美国加利福尼亚州硅谷-43.154.34.49
+      - 🇺🇸-美国加利福尼亚州硅谷-tx-xg-2.ienai.xin
+      - 🇺🇸-美国加利福尼亚州硅谷-tchk1.zhangxuan.best
+      - 🇺🇸-美国加利福尼亚州硅谷-tchk3.zhangxuan.best
+      - 🇺🇸-美国加利福尼亚州洛杉矶-41.216.177.148
+      - 🇺🇸-美国加利福尼亚州洛杉矶-us-ca1.qwqjsq.top
+      - 🇺🇸-美国加利福尼亚州洛杉矶-us1.lolvps.xyz
+      - 🇺🇸-美国弗吉尼亚州文特山农场-usv-4.openv2ray.com
+      -     🇺🇸-美国-00000000000000000000000000000000000000000000000000000000000013a.rui77.com
+      -     🇺🇸-美国-00000000000000000000000000000000000000000000000000000000000026a.rui77.com
+      -     🇺🇸-美国-00000000000000000000000000000000000000000000000000000000000039a.rui77.com
+      - 🇺🇸-美国-141.193.213.21
+      - 🇺🇸-美国-15.235.147.186
+      - 🇺🇸-美国-15.235.163.180
+      - 🇺🇸-美国-150.230.199.177
+      - 🇺🇸-美国-152.67.196.3
+      - 🇺🇸-美国-152.67.223.187
+      - 🇺🇸-美国-152.70.88.47
+      - 🇨🇳-加拿大-tw.mayiyun.shop
+      - 🇺🇸-美国-172.64.94.238
+      - 🇩🇪-德国-47.254.175.195
+      - 🇫🇷[10-30]-🇫🇷-法国-001-62.210.254.72
+      - '-亚太地区-103.186.149.132'
+      - '-亚太地区-103.186.149.242'
+      - '-亚太地区-103.186.149.220'
+      - '-亚太地区-1114hk.fans8.xyz'
+      - 🇭🇰-亚太地区-hk-01.proxyvip.top
+      - '-亚太地区-vietnam.hn14.shopvpn.net'
+      - '-亚太地区-vn1.v2-ray.com'
+      - 🇧🇷-巴西-138.118.175.28
+      - '-本机地址-V104.bgpnet.top'
+      - '-本机地址-cf.fovi.tk'
+      - '-本机地址-dlszl.hotfun.buzz'
+      - '-本机地址-hkaz7.xmrth-node.xyz'
+      - '-本机地址-jp02.henet.cyou'
+      - '-本机地址-jpaws006.xmrth-node.xyz'
+      - '-本机地址-jpaz2.xmrth-node.xyz'
+      - '-本机地址-jplin005.xmrth-node.xyz'
+      - 🇵🇭-菲律宾-ph1.vpnjantit.com
+      - 🇻🇳-越南-0001.hcm.genzpn.com
+      - '-非洲地区-102.37.157.62'
+      - 🇲🇾-马来西亚-my2.vpnjantit.com
       - 香港亚马逊-1号
       - 香港HKT-江移|解锁流媒体
       - 香港HKIX-江移|解锁流媒体
@@ -435,84 +988,180 @@ proxy-groups:
       - 【美国】峰值1000M-NetFlix解锁
       - 【纽约】峰值1000MNetFlix解锁
       - 卢森堡
-      - default_name_1
-      - default_name_2
-      - default_name_3
-      - _1
-      - _2
-      - _3
-      - trojan.wefuckgfw.tk:443_1
-      - trojan.wefuckgfw.tk:443_2
-      - trojan.wefuckgfw.tk:443_3
-      - TW台湾(www.lcr189.com)
-      - TW+台湾(www.lcr189.com)
-      - UK英国(www.lcr189.com)_1
-      - UK英国(www.lcr189.com)_2
-      - UK英国(www.lcr189.com)_3
-      - UK英国(www.lcr189.com)_4
-      - UK英国(www.lcr189.com)_5
-      - US美国(www.lcr189.com)_1
-      - US美国(www.lcr189.com)_2
-      - US美国(www.lcr189.com)_3
-      - US美国(www.lcr189.com)_4
-      - US美国(www.lcr189.com)_5
-      - US美国(www.lcr189.com)_6
-      - US美国(www.lcr189.com)_7
-      - US美国(www.lcr189.com)_8
-      - US美国(www.lcr189.com)_9
-      - US美国(www.lcr189.com)_10
-      - US美国(www.lcr189.com)_11
-      - US美国(www.lcr189.com)_12
-      - US美国(www.lcr189.com)_13
-      - US美国(www.lcr189.com)_14
-      - US+美国(www.lcr189.com)
-      - US美国(www.lcr189.com)_15
-      - US美国(www.lcr189.com)_16
-      - US美国(www.lcr189.com)_17
-      - VN越南(www.lcr189.com)_1
-      - VN越南(www.lcr189.com)_2
-      - _RU_俄罗斯联邦->🇳🇱_NL_荷兰
-      - CA+加拿大(www.lcr189.com)_1
-      - CA+加拿大(www.lcr189.com)_2
-      - CN中国北京(www.lcr189.com)
-      - CN中国山东(www.lcr189.com)
-      - DE德国(www.lcr189.com)_1
-      - DE德国(www.lcr189.com)_2
-      - DE德国(www.lcr189.com)_3
-      - DE德国(www.lcr189.com)_4
-      - FR法国(www.lcr189.com)_1
-      - FR法国(www.lcr189.com)_2
-      - FR法国(www.lcr189.com)_3
-      - FR法国(www.lcr189.com)_4
-      - HK香港(www.lcr189.com)_1
-      - HK+香港(www.lcr189.com)_1
-      - HK香港(www.lcr189.com)_2
-      - HK香港(www.lcr189.com)_3
-      - HK+香港(www.lcr189.com)_2
-      - HK+香港(www.lcr189.com)_3
-      - IN印度(www.lcr189.com)
-      - IR伊朗(www.lcr189.com)
-      - KR韩国(www.lcr189.com)_1
-      - KR韩国(www.lcr189.com)_2
-      - KR韩国(www.lcr189.com)_3
-      - KR+韩国(www.lcr189.com)_1
-      - KR+韩国(www.lcr189.com)_2
-      - NL荷兰(www.lcr189.com)_1
-      - NL荷兰(www.lcr189.com)_2
-      - PL波兰(www.lcr189.com)
-      - RU俄罗斯(www.lcr189.com)
-      - SG新加坡(www.lcr189.com)_1
-      - SG+新加坡(www.lcr189.com)_1
-      - SG+新加坡(www.lcr189.com)_2
-      - SG新加坡(www.lcr189.com)_2
-      - SG新加坡(www.lcr189.com)_3
-      - SG新加坡(www.lcr189.com)10_1
-      - SG新加坡(www.lcr189.com)10_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - default_name_1
+      - default_name_2
+      - 🇯🇵_JP_日本
+      - 🇺🇸_US_美国_1
+      - 🇩🇪_DE_德国
+      - 🇷🇺_RU_俄罗斯联邦->🇩🇪_DE_德国
+      - 🇺🇸_US_美国_2
+      - 🇯🇵_JP_日本->🇮🇩_ID_印度尼西亚
+      - CA+加拿大(www.lcr189.com)
+      - CN中国北京(www.lcr189.com)
+      - CN中国广东(www.lcr189.com)_1
+      - CN中国广东(www.lcr189.com)_2
+      - CN中国杭州(www.lcr189.com)
+      - CN中国山东(www.lcr189.com)
+      - DE德国(www.lcr189.com)_1
+      - DE德国(www.lcr189.com)_2
+      - FR+法国(www.lcr189.com)
+      - FR法国(www.lcr189.com)
+      - HK香港(www.lcr189.com)_1
+      - HK+香港(www.lcr189.com)_1
+      - HK+香港(www.lcr189.com)_2
+      - HK香港(www.lcr189.com)_2
+      - HK香港(www.lcr189.com)_3
+      - HK+香港(www.lcr189.com)_3
+      - JP日本(www.lcr189.com)
+      - KR韩国(www.lcr189.com)_1
+      - KR韩国(www.lcr189.com)_2
+      - KR+韩国(www.lcr189.com)_1
+      - KR+韩国(www.lcr189.com)_2
+      - KR韩国(www.lcr189.com)_3
+      - KR+韩国(www.lcr189.com)_3
+      - NL荷兰(www.lcr189.com)
+      - NL+荷兰(www.lcr189.com)
+      - PL波兰(www.lcr189.com)
+      - RU俄罗斯(www.lcr189.com)
+      - SG新加坡(www.lcr189.com)_1
+      - SG新加坡(www.lcr189.com)_2
+      - SG+新加坡(www.lcr189.com)
+      - TUR+土耳其(www.lcr189.com)_1
+      - TUR+土耳其(www.lcr189.com)_2
+      - TW台湾(www.lcr189.com)_1
+      - TW+台湾(www.lcr189.com)_1
+      - TW台湾(www.lcr189.com)_2
+      - TW+台湾(www.lcr189.com)_2
+      - TW台湾(www.lcr189.com)_3
+      - TW+台湾(www.lcr189.com)_3
+      - UK+英国(www.lcr189.com)_1
+      - UK英国(www.lcr189.com)_1
+      - UK英国(www.lcr189.com)_2
+      - UK+英国(www.lcr189.com)_2
+      - UK英国(www.lcr189.com)_3
+      - UK英国(www.lcr189.com)_4
+      - US美国(www.lcr189.com)_1
+      - US美国(www.lcr189.com)_2
+      - US美国(www.lcr189.com)_3
+      - US美国(www.lcr189.com)_4
+      - US美国(www.lcr189.com)_5
+      - US美国(www.lcr189.com)_6
+      - US美国(www.lcr189.com)_7
+      - US美国(www.lcr189.com)_8
+      - US美国(www.lcr189.com)_9
+      - US美国(www.lcr189.com)_10
+      - US美国(www.lcr189.com)_11
+      - US美国(www.lcr189.com)_12
+      - US美国(www.lcr189.com)_13
+      - US+美国(www.lcr189.com)
+      - US美国(www.lcr189.com)_14
+      - US美国(www.lcr189.com)_15
+      - US美国(www.lcr189.com)_16
+      - US美国(www.lcr189.com)_17
+      - US美国(www.lcr189.com)_18
+      - US美国(www.lcr189.com)_19
+      - US美国(www.lcr189.com)_20
+      - US美国(www.lcr189.com)_21
+      - US美国(www.lcr189.com)_22
+      - US美国(www.lcr189.com)_23
+      - US美国(www.lcr189.com)_24
+      - VN+越南(www.lcr189.com)
+      - 泰国(www.lcr189.com)
+      - 🇯🇵日本_1028143
+      - 🇯🇵日本_1028129
+      - 🇸🇬新加坡_1028020
+      - 🇸🇬新加坡_1028293
+      - 🇯🇵[10-30]-🇯🇵-日本-003-43.198.12.229
+      - 🇯🇵-日本东京-52.192.248.205
+      - 🇯🇵-日本东京-52.199.209.73
+      -     🇯🇵-日本-00000000000000000000000000000000000000000000000000000000000024a.rui77.com
+      -     🇯🇵-日本-00000000000000000000000000000000000000000000000000000000000037a.rui77.com
+      -     🇯🇵-日本-00000000000000000000000000000000000000000000000000000000000033a.rui77.com
+      - 🇯🇵-日本-146.56.133.109
+      - 🇯🇵-日本-146.56.155.70
+      - 🇯🇵-日本-146.56.166.153
+      - 🇯🇵-日本-16.kkyun.cyou
+      - 🇯🇵-日本-172.104.125.96
+      - 🇯🇵-日本-1260eea.wz.glados-config.net
+      - 🇯🇵-日本-1260eea.td.glados-config.net
+      - 🇯🇵-日本-13.231.240.122
+      - 🇯🇵-日本-35.77.223.19
+      - 🇯🇵-日本-35.79.220.83
+      - 🇯🇵-日本-47.74.19.41
+      - 🇯🇵-日本-47.74.21.12
+      - 🇯🇵-日本-47.74.33.226
+      - 🇯🇵-日本-47.74.43.158
+      - 🇯🇵-日本-47.74.54.228
+      - 🇯🇵-日本-54.199.24.57
+      - 🇯🇵-日本-m2.pianyijc.top
+      - 🇯🇵-日本-awsjp.mayiyun.shop
+      - 🇯🇵-日本-awskr2.mayiyun.shop
+      - 🇯🇵-日本-aeadjpaes01.xn--z4q48lcvp.com
+      - 🇯🇵-日本-bgroup.node1.v.nodelist-gfwairport.download
+      - 🇯🇵-日本-bgroup.node4.v.nodelist-gfwairport.download
+      - 🇯🇵-日本-jp.333210.xyz
+      - 🇯🇵-日本-jp04-vm0.entry.rwesdhytjuftyhdafsdgfrh.club
+      - 🇯🇵-日本-jp1.wanss.win
+      - 🇯🇵-日本-jp1.wumaojichang.ml
+      - 🇯🇵-日本-jp3.wumaojichang.ml
+      - 🇯🇵-日本-jptws.hotfun.buzz
+      - 🇯🇵-日本-urgjp.hotfun.buzz
+      - 🇯🇵-日本-v31.idcloudhost.de
+      - 🇯🇵-日本-zfsp1.mayiyun.shop
+      - 🇭🇰-香港-154.208.10.62
+      - 🇭🇰-香港-159.100.206.88
+      - 🇭🇰-香港-165.154.5.235
+      - 🇭🇰-香港-18.166.58.46
+      - 🇺🇸-美国-152.228.191.232
+      - '-美洲地区-173.205.94.4'
+      - 🇺🇸-美国加利福尼亚州硅谷-43.153.4.246
+      - 🇺🇸-美国加利福尼亚州硅谷-43.154.34.49
+      - 🇺🇸-美国加利福尼亚州硅谷-tx-xg-2.ienai.xin
+      - 🇺🇸-美国加利福尼亚州硅谷-tchk1.zhangxuan.best
+      - 🇺🇸-美国加利福尼亚州硅谷-tchk3.zhangxuan.best
+      - 🇺🇸-美国加利福尼亚州洛杉矶-41.216.177.148
+      - 🇺🇸-美国加利福尼亚州洛杉矶-us-ca1.qwqjsq.top
+      - 🇺🇸-美国加利福尼亚州洛杉矶-us1.lolvps.xyz
+      - 🇺🇸-美国弗吉尼亚州文特山农场-usv-4.openv2ray.com
+      -     🇺🇸-美国-00000000000000000000000000000000000000000000000000000000000013a.rui77.com
+      -     🇺🇸-美国-00000000000000000000000000000000000000000000000000000000000026a.rui77.com
+      -     🇺🇸-美国-00000000000000000000000000000000000000000000000000000000000039a.rui77.com
+      - 🇺🇸-美国-141.193.213.21
+      - 🇺🇸-美国-15.235.147.186
+      - 🇺🇸-美国-15.235.163.180
+      - 🇺🇸-美国-150.230.199.177
+      - 🇺🇸-美国-152.67.196.3
+      - 🇺🇸-美国-152.67.223.187
+      - 🇺🇸-美国-152.70.88.47
+      - 🇨🇳-加拿大-tw.mayiyun.shop
+      - 🇺🇸-美国-172.64.94.238
+      - 🇩🇪-德国-47.254.175.195
+      - 🇫🇷[10-30]-🇫🇷-法国-001-62.210.254.72
+      - '-亚太地区-103.186.149.132'
+      - '-亚太地区-103.186.149.242'
+      - '-亚太地区-103.186.149.220'
+      - '-亚太地区-1114hk.fans8.xyz'
+      - 🇭🇰-亚太地区-hk-01.proxyvip.top
+      - '-亚太地区-vietnam.hn14.shopvpn.net'
+      - '-亚太地区-vn1.v2-ray.com'
+      - 🇧🇷-巴西-138.118.175.28
+      - '-本机地址-V104.bgpnet.top'
+      - '-本机地址-cf.fovi.tk'
+      - '-本机地址-dlszl.hotfun.buzz'
+      - '-本机地址-hkaz7.xmrth-node.xyz'
+      - '-本机地址-jp02.henet.cyou'
+      - '-本机地址-jpaws006.xmrth-node.xyz'
+      - '-本机地址-jpaz2.xmrth-node.xyz'
+      - '-本机地址-jplin005.xmrth-node.xyz'
+      - 🇵🇭-菲律宾-ph1.vpnjantit.com
+      - 🇻🇳-越南-0001.hcm.genzpn.com
+      - '-非洲地区-102.37.157.62'
+      - 🇲🇾-马来西亚-my2.vpnjantit.com
       - 香港亚马逊-1号
       - 香港HKT-江移|解锁流媒体
       - 香港HKIX-江移|解锁流媒体
@@ -536,84 +1185,180 @@ proxy-groups:
       - 【美国】峰值1000M-NetFlix解锁
       - 【纽约】峰值1000MNetFlix解锁
       - 卢森堡
-      - default_name_1
-      - default_name_2
-      - default_name_3
-      - _1
-      - _2
-      - _3
-      - trojan.wefuckgfw.tk:443_1
-      - trojan.wefuckgfw.tk:443_2
-      - trojan.wefuckgfw.tk:443_3
-      - TW台湾(www.lcr189.com)
-      - TW+台湾(www.lcr189.com)
-      - UK英国(www.lcr189.com)_1
-      - UK英国(www.lcr189.com)_2
-      - UK英国(www.lcr189.com)_3
-      - UK英国(www.lcr189.com)_4
-      - UK英国(www.lcr189.com)_5
-      - US美国(www.lcr189.com)_1
-      - US美国(www.lcr189.com)_2
-      - US美国(www.lcr189.com)_3
-      - US美国(www.lcr189.com)_4
-      - US美国(www.lcr189.com)_5
-      - US美国(www.lcr189.com)_6
-      - US美国(www.lcr189.com)_7
-      - US美国(www.lcr189.com)_8
-      - US美国(www.lcr189.com)_9
-      - US美国(www.lcr189.com)_10
-      - US美国(www.lcr189.com)_11
-      - US美国(www.lcr189.com)_12
-      - US美国(www.lcr189.com)_13
-      - US美国(www.lcr189.com)_14
-      - US+美国(www.lcr189.com)
-      - US美国(www.lcr189.com)_15
-      - US美国(www.lcr189.com)_16
-      - US美国(www.lcr189.com)_17
-      - VN越南(www.lcr189.com)_1
-      - VN越南(www.lcr189.com)_2
-      - _RU_俄罗斯联邦->🇳🇱_NL_荷兰
-      - CA+加拿大(www.lcr189.com)_1
-      - CA+加拿大(www.lcr189.com)_2
-      - CN中国北京(www.lcr189.com)
-      - CN中国山东(www.lcr189.com)
-      - DE德国(www.lcr189.com)_1
-      - DE德国(www.lcr189.com)_2
-      - DE德国(www.lcr189.com)_3
-      - DE德国(www.lcr189.com)_4
-      - FR法国(www.lcr189.com)_1
-      - FR法国(www.lcr189.com)_2
-      - FR法国(www.lcr189.com)_3
-      - FR法国(www.lcr189.com)_4
-      - HK香港(www.lcr189.com)_1
-      - HK+香港(www.lcr189.com)_1
-      - HK香港(www.lcr189.com)_2
-      - HK香港(www.lcr189.com)_3
-      - HK+香港(www.lcr189.com)_2
-      - HK+香港(www.lcr189.com)_3
-      - IN印度(www.lcr189.com)
-      - IR伊朗(www.lcr189.com)
-      - KR韩国(www.lcr189.com)_1
-      - KR韩国(www.lcr189.com)_2
-      - KR韩国(www.lcr189.com)_3
-      - KR+韩国(www.lcr189.com)_1
-      - KR+韩国(www.lcr189.com)_2
-      - NL荷兰(www.lcr189.com)_1
-      - NL荷兰(www.lcr189.com)_2
-      - PL波兰(www.lcr189.com)
-      - RU俄罗斯(www.lcr189.com)
-      - SG新加坡(www.lcr189.com)_1
-      - SG+新加坡(www.lcr189.com)_1
-      - SG+新加坡(www.lcr189.com)_2
-      - SG新加坡(www.lcr189.com)_2
-      - SG新加坡(www.lcr189.com)_3
-      - SG新加坡(www.lcr189.com)10_1
-      - SG新加坡(www.lcr189.com)10_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - default_name_1
+      - default_name_2
+      - 🇯🇵_JP_日本
+      - 🇺🇸_US_美国_1
+      - 🇩🇪_DE_德国
+      - 🇷🇺_RU_俄罗斯联邦->🇩🇪_DE_德国
+      - 🇺🇸_US_美国_2
+      - 🇯🇵_JP_日本->🇮🇩_ID_印度尼西亚
+      - CA+加拿大(www.lcr189.com)
+      - CN中国北京(www.lcr189.com)
+      - CN中国广东(www.lcr189.com)_1
+      - CN中国广东(www.lcr189.com)_2
+      - CN中国杭州(www.lcr189.com)
+      - CN中国山东(www.lcr189.com)
+      - DE德国(www.lcr189.com)_1
+      - DE德国(www.lcr189.com)_2
+      - FR+法国(www.lcr189.com)
+      - FR法国(www.lcr189.com)
+      - HK香港(www.lcr189.com)_1
+      - HK+香港(www.lcr189.com)_1
+      - HK+香港(www.lcr189.com)_2
+      - HK香港(www.lcr189.com)_2
+      - HK香港(www.lcr189.com)_3
+      - HK+香港(www.lcr189.com)_3
+      - JP日本(www.lcr189.com)
+      - KR韩国(www.lcr189.com)_1
+      - KR韩国(www.lcr189.com)_2
+      - KR+韩国(www.lcr189.com)_1
+      - KR+韩国(www.lcr189.com)_2
+      - KR韩国(www.lcr189.com)_3
+      - KR+韩国(www.lcr189.com)_3
+      - NL荷兰(www.lcr189.com)
+      - NL+荷兰(www.lcr189.com)
+      - PL波兰(www.lcr189.com)
+      - RU俄罗斯(www.lcr189.com)
+      - SG新加坡(www.lcr189.com)_1
+      - SG新加坡(www.lcr189.com)_2
+      - SG+新加坡(www.lcr189.com)
+      - TUR+土耳其(www.lcr189.com)_1
+      - TUR+土耳其(www.lcr189.com)_2
+      - TW台湾(www.lcr189.com)_1
+      - TW+台湾(www.lcr189.com)_1
+      - TW台湾(www.lcr189.com)_2
+      - TW+台湾(www.lcr189.com)_2
+      - TW台湾(www.lcr189.com)_3
+      - TW+台湾(www.lcr189.com)_3
+      - UK+英国(www.lcr189.com)_1
+      - UK英国(www.lcr189.com)_1
+      - UK英国(www.lcr189.com)_2
+      - UK+英国(www.lcr189.com)_2
+      - UK英国(www.lcr189.com)_3
+      - UK英国(www.lcr189.com)_4
+      - US美国(www.lcr189.com)_1
+      - US美国(www.lcr189.com)_2
+      - US美国(www.lcr189.com)_3
+      - US美国(www.lcr189.com)_4
+      - US美国(www.lcr189.com)_5
+      - US美国(www.lcr189.com)_6
+      - US美国(www.lcr189.com)_7
+      - US美国(www.lcr189.com)_8
+      - US美国(www.lcr189.com)_9
+      - US美国(www.lcr189.com)_10
+      - US美国(www.lcr189.com)_11
+      - US美国(www.lcr189.com)_12
+      - US美国(www.lcr189.com)_13
+      - US+美国(www.lcr189.com)
+      - US美国(www.lcr189.com)_14
+      - US美国(www.lcr189.com)_15
+      - US美国(www.lcr189.com)_16
+      - US美国(www.lcr189.com)_17
+      - US美国(www.lcr189.com)_18
+      - US美国(www.lcr189.com)_19
+      - US美国(www.lcr189.com)_20
+      - US美国(www.lcr189.com)_21
+      - US美国(www.lcr189.com)_22
+      - US美国(www.lcr189.com)_23
+      - US美国(www.lcr189.com)_24
+      - VN+越南(www.lcr189.com)
+      - 泰国(www.lcr189.com)
+      - 🇯🇵日本_1028143
+      - 🇯🇵日本_1028129
+      - 🇸🇬新加坡_1028020
+      - 🇸🇬新加坡_1028293
+      - 🇯🇵[10-30]-🇯🇵-日本-003-43.198.12.229
+      - 🇯🇵-日本东京-52.192.248.205
+      - 🇯🇵-日本东京-52.199.209.73
+      -     🇯🇵-日本-00000000000000000000000000000000000000000000000000000000000024a.rui77.com
+      -     🇯🇵-日本-00000000000000000000000000000000000000000000000000000000000037a.rui77.com
+      -     🇯🇵-日本-00000000000000000000000000000000000000000000000000000000000033a.rui77.com
+      - 🇯🇵-日本-146.56.133.109
+      - 🇯🇵-日本-146.56.155.70
+      - 🇯🇵-日本-146.56.166.153
+      - 🇯🇵-日本-16.kkyun.cyou
+      - 🇯🇵-日本-172.104.125.96
+      - 🇯🇵-日本-1260eea.wz.glados-config.net
+      - 🇯🇵-日本-1260eea.td.glados-config.net
+      - 🇯🇵-日本-13.231.240.122
+      - 🇯🇵-日本-35.77.223.19
+      - 🇯🇵-日本-35.79.220.83
+      - 🇯🇵-日本-47.74.19.41
+      - 🇯🇵-日本-47.74.21.12
+      - 🇯🇵-日本-47.74.33.226
+      - 🇯🇵-日本-47.74.43.158
+      - 🇯🇵-日本-47.74.54.228
+      - 🇯🇵-日本-54.199.24.57
+      - 🇯🇵-日本-m2.pianyijc.top
+      - 🇯🇵-日本-awsjp.mayiyun.shop
+      - 🇯🇵-日本-awskr2.mayiyun.shop
+      - 🇯🇵-日本-aeadjpaes01.xn--z4q48lcvp.com
+      - 🇯🇵-日本-bgroup.node1.v.nodelist-gfwairport.download
+      - 🇯🇵-日本-bgroup.node4.v.nodelist-gfwairport.download
+      - 🇯🇵-日本-jp.333210.xyz
+      - 🇯🇵-日本-jp04-vm0.entry.rwesdhytjuftyhdafsdgfrh.club
+      - 🇯🇵-日本-jp1.wanss.win
+      - 🇯🇵-日本-jp1.wumaojichang.ml
+      - 🇯🇵-日本-jp3.wumaojichang.ml
+      - 🇯🇵-日本-jptws.hotfun.buzz
+      - 🇯🇵-日本-urgjp.hotfun.buzz
+      - 🇯🇵-日本-v31.idcloudhost.de
+      - 🇯🇵-日本-zfsp1.mayiyun.shop
+      - 🇭🇰-香港-154.208.10.62
+      - 🇭🇰-香港-159.100.206.88
+      - 🇭🇰-香港-165.154.5.235
+      - 🇭🇰-香港-18.166.58.46
+      - 🇺🇸-美国-152.228.191.232
+      - '-美洲地区-173.205.94.4'
+      - 🇺🇸-美国加利福尼亚州硅谷-43.153.4.246
+      - 🇺🇸-美国加利福尼亚州硅谷-43.154.34.49
+      - 🇺🇸-美国加利福尼亚州硅谷-tx-xg-2.ienai.xin
+      - 🇺🇸-美国加利福尼亚州硅谷-tchk1.zhangxuan.best
+      - 🇺🇸-美国加利福尼亚州硅谷-tchk3.zhangxuan.best
+      - 🇺🇸-美国加利福尼亚州洛杉矶-41.216.177.148
+      - 🇺🇸-美国加利福尼亚州洛杉矶-us-ca1.qwqjsq.top
+      - 🇺🇸-美国加利福尼亚州洛杉矶-us1.lolvps.xyz
+      - 🇺🇸-美国弗吉尼亚州文特山农场-usv-4.openv2ray.com
+      -     🇺🇸-美国-00000000000000000000000000000000000000000000000000000000000013a.rui77.com
+      -     🇺🇸-美国-00000000000000000000000000000000000000000000000000000000000026a.rui77.com
+      -     🇺🇸-美国-00000000000000000000000000000000000000000000000000000000000039a.rui77.com
+      - 🇺🇸-美国-141.193.213.21
+      - 🇺🇸-美国-15.235.147.186
+      - 🇺🇸-美国-15.235.163.180
+      - 🇺🇸-美国-150.230.199.177
+      - 🇺🇸-美国-152.67.196.3
+      - 🇺🇸-美国-152.67.223.187
+      - 🇺🇸-美国-152.70.88.47
+      - 🇨🇳-加拿大-tw.mayiyun.shop
+      - 🇺🇸-美国-172.64.94.238
+      - 🇩🇪-德国-47.254.175.195
+      - 🇫🇷[10-30]-🇫🇷-法国-001-62.210.254.72
+      - '-亚太地区-103.186.149.132'
+      - '-亚太地区-103.186.149.242'
+      - '-亚太地区-103.186.149.220'
+      - '-亚太地区-1114hk.fans8.xyz'
+      - 🇭🇰-亚太地区-hk-01.proxyvip.top
+      - '-亚太地区-vietnam.hn14.shopvpn.net'
+      - '-亚太地区-vn1.v2-ray.com'
+      - 🇧🇷-巴西-138.118.175.28
+      - '-本机地址-V104.bgpnet.top'
+      - '-本机地址-cf.fovi.tk'
+      - '-本机地址-dlszl.hotfun.buzz'
+      - '-本机地址-hkaz7.xmrth-node.xyz'
+      - '-本机地址-jp02.henet.cyou'
+      - '-本机地址-jpaws006.xmrth-node.xyz'
+      - '-本机地址-jpaz2.xmrth-node.xyz'
+      - '-本机地址-jplin005.xmrth-node.xyz'
+      - 🇵🇭-菲律宾-ph1.vpnjantit.com
+      - 🇻🇳-越南-0001.hcm.genzpn.com
+      - '-非洲地区-102.37.157.62'
+      - 🇲🇾-马来西亚-my2.vpnjantit.com
       - 香港亚马逊-1号
       - 香港HKT-江移|解锁流媒体
       - 香港HKIX-江移|解锁流媒体
@@ -637,79 +1382,6 @@ proxy-groups:
       - 【美国】峰值1000M-NetFlix解锁
       - 【纽约】峰值1000MNetFlix解锁
       - 卢森堡
-      - default_name_1
-      - default_name_2
-      - default_name_3
-      - _1
-      - _2
-      - _3
-      - trojan.wefuckgfw.tk:443_1
-      - trojan.wefuckgfw.tk:443_2
-      - trojan.wefuckgfw.tk:443_3
-      - TW台湾(www.lcr189.com)
-      - TW+台湾(www.lcr189.com)
-      - UK英国(www.lcr189.com)_1
-      - UK英国(www.lcr189.com)_2
-      - UK英国(www.lcr189.com)_3
-      - UK英国(www.lcr189.com)_4
-      - UK英国(www.lcr189.com)_5
-      - US美国(www.lcr189.com)_1
-      - US美国(www.lcr189.com)_2
-      - US美国(www.lcr189.com)_3
-      - US美国(www.lcr189.com)_4
-      - US美国(www.lcr189.com)_5
-      - US美国(www.lcr189.com)_6
-      - US美国(www.lcr189.com)_7
-      - US美国(www.lcr189.com)_8
-      - US美国(www.lcr189.com)_9
-      - US美国(www.lcr189.com)_10
-      - US美国(www.lcr189.com)_11
-      - US美国(www.lcr189.com)_12
-      - US美国(www.lcr189.com)_13
-      - US美国(www.lcr189.com)_14
-      - US+美国(www.lcr189.com)
-      - US美国(www.lcr189.com)_15
-      - US美国(www.lcr189.com)_16
-      - US美国(www.lcr189.com)_17
-      - VN越南(www.lcr189.com)_1
-      - VN越南(www.lcr189.com)_2
-      - _RU_俄罗斯联邦->🇳🇱_NL_荷兰
-      - CA+加拿大(www.lcr189.com)_1
-      - CA+加拿大(www.lcr189.com)_2
-      - CN中国北京(www.lcr189.com)
-      - CN中国山东(www.lcr189.com)
-      - DE德国(www.lcr189.com)_1
-      - DE德国(www.lcr189.com)_2
-      - DE德国(www.lcr189.com)_3
-      - DE德国(www.lcr189.com)_4
-      - FR法国(www.lcr189.com)_1
-      - FR法国(www.lcr189.com)_2
-      - FR法国(www.lcr189.com)_3
-      - FR法国(www.lcr189.com)_4
-      - HK香港(www.lcr189.com)_1
-      - HK+香港(www.lcr189.com)_1
-      - HK香港(www.lcr189.com)_2
-      - HK香港(www.lcr189.com)_3
-      - HK+香港(www.lcr189.com)_2
-      - HK+香港(www.lcr189.com)_3
-      - IN印度(www.lcr189.com)
-      - IR伊朗(www.lcr189.com)
-      - KR韩国(www.lcr189.com)_1
-      - KR韩国(www.lcr189.com)_2
-      - KR韩国(www.lcr189.com)_3
-      - KR+韩国(www.lcr189.com)_1
-      - KR+韩国(www.lcr189.com)_2
-      - NL荷兰(www.lcr189.com)_1
-      - NL荷兰(www.lcr189.com)_2
-      - PL波兰(www.lcr189.com)
-      - RU俄罗斯(www.lcr189.com)
-      - SG新加坡(www.lcr189.com)_1
-      - SG+新加坡(www.lcr189.com)_1
-      - SG+新加坡(www.lcr189.com)_2
-      - SG新加坡(www.lcr189.com)_2
-      - SG新加坡(www.lcr189.com)_3
-      - SG新加坡(www.lcr189.com)10_1
-      - SG新加坡(www.lcr189.com)10_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -732,6 +1404,175 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - default_name_1
+      - default_name_2
+      - 🇯🇵_JP_日本
+      - 🇺🇸_US_美国_1
+      - 🇩🇪_DE_德国
+      - 🇷🇺_RU_俄罗斯联邦->🇩🇪_DE_德国
+      - 🇺🇸_US_美国_2
+      - 🇯🇵_JP_日本->🇮🇩_ID_印度尼西亚
+      - CA+加拿大(www.lcr189.com)
+      - CN中国北京(www.lcr189.com)
+      - CN中国广东(www.lcr189.com)_1
+      - CN中国广东(www.lcr189.com)_2
+      - CN中国杭州(www.lcr189.com)
+      - CN中国山东(www.lcr189.com)
+      - DE德国(www.lcr189.com)_1
+      - DE德国(www.lcr189.com)_2
+      - FR+法国(www.lcr189.com)
+      - FR法国(www.lcr189.com)
+      - HK香港(www.lcr189.com)_1
+      - HK+香港(www.lcr189.com)_1
+      - HK+香港(www.lcr189.com)_2
+      - HK香港(www.lcr189.com)_2
+      - HK香港(www.lcr189.com)_3
+      - HK+香港(www.lcr189.com)_3
+      - JP日本(www.lcr189.com)
+      - KR韩国(www.lcr189.com)_1
+      - KR韩国(www.lcr189.com)_2
+      - KR+韩国(www.lcr189.com)_1
+      - KR+韩国(www.lcr189.com)_2
+      - KR韩国(www.lcr189.com)_3
+      - KR+韩国(www.lcr189.com)_3
+      - NL荷兰(www.lcr189.com)
+      - NL+荷兰(www.lcr189.com)
+      - PL波兰(www.lcr189.com)
+      - RU俄罗斯(www.lcr189.com)
+      - SG新加坡(www.lcr189.com)_1
+      - SG新加坡(www.lcr189.com)_2
+      - SG+新加坡(www.lcr189.com)
+      - TUR+土耳其(www.lcr189.com)_1
+      - TUR+土耳其(www.lcr189.com)_2
+      - TW台湾(www.lcr189.com)_1
+      - TW+台湾(www.lcr189.com)_1
+      - TW台湾(www.lcr189.com)_2
+      - TW+台湾(www.lcr189.com)_2
+      - TW台湾(www.lcr189.com)_3
+      - TW+台湾(www.lcr189.com)_3
+      - UK+英国(www.lcr189.com)_1
+      - UK英国(www.lcr189.com)_1
+      - UK英国(www.lcr189.com)_2
+      - UK+英国(www.lcr189.com)_2
+      - UK英国(www.lcr189.com)_3
+      - UK英国(www.lcr189.com)_4
+      - US美国(www.lcr189.com)_1
+      - US美国(www.lcr189.com)_2
+      - US美国(www.lcr189.com)_3
+      - US美国(www.lcr189.com)_4
+      - US美国(www.lcr189.com)_5
+      - US美国(www.lcr189.com)_6
+      - US美国(www.lcr189.com)_7
+      - US美国(www.lcr189.com)_8
+      - US美国(www.lcr189.com)_9
+      - US美国(www.lcr189.com)_10
+      - US美国(www.lcr189.com)_11
+      - US美国(www.lcr189.com)_12
+      - US美国(www.lcr189.com)_13
+      - US+美国(www.lcr189.com)
+      - US美国(www.lcr189.com)_14
+      - US美国(www.lcr189.com)_15
+      - US美国(www.lcr189.com)_16
+      - US美国(www.lcr189.com)_17
+      - US美国(www.lcr189.com)_18
+      - US美国(www.lcr189.com)_19
+      - US美国(www.lcr189.com)_20
+      - US美国(www.lcr189.com)_21
+      - US美国(www.lcr189.com)_22
+      - US美国(www.lcr189.com)_23
+      - US美国(www.lcr189.com)_24
+      - VN+越南(www.lcr189.com)
+      - 泰国(www.lcr189.com)
+      - 🇯🇵日本_1028143
+      - 🇯🇵日本_1028129
+      - 🇸🇬新加坡_1028020
+      - 🇸🇬新加坡_1028293
+      - 🇯🇵[10-30]-🇯🇵-日本-003-43.198.12.229
+      - 🇯🇵-日本东京-52.192.248.205
+      - 🇯🇵-日本东京-52.199.209.73
+      -     🇯🇵-日本-00000000000000000000000000000000000000000000000000000000000024a.rui77.com
+      -     🇯🇵-日本-00000000000000000000000000000000000000000000000000000000000037a.rui77.com
+      -     🇯🇵-日本-00000000000000000000000000000000000000000000000000000000000033a.rui77.com
+      - 🇯🇵-日本-146.56.133.109
+      - 🇯🇵-日本-146.56.155.70
+      - 🇯🇵-日本-146.56.166.153
+      - 🇯🇵-日本-16.kkyun.cyou
+      - 🇯🇵-日本-172.104.125.96
+      - 🇯🇵-日本-1260eea.wz.glados-config.net
+      - 🇯🇵-日本-1260eea.td.glados-config.net
+      - 🇯🇵-日本-13.231.240.122
+      - 🇯🇵-日本-35.77.223.19
+      - 🇯🇵-日本-35.79.220.83
+      - 🇯🇵-日本-47.74.19.41
+      - 🇯🇵-日本-47.74.21.12
+      - 🇯🇵-日本-47.74.33.226
+      - 🇯🇵-日本-47.74.43.158
+      - 🇯🇵-日本-47.74.54.228
+      - 🇯🇵-日本-54.199.24.57
+      - 🇯🇵-日本-m2.pianyijc.top
+      - 🇯🇵-日本-awsjp.mayiyun.shop
+      - 🇯🇵-日本-awskr2.mayiyun.shop
+      - 🇯🇵-日本-aeadjpaes01.xn--z4q48lcvp.com
+      - 🇯🇵-日本-bgroup.node1.v.nodelist-gfwairport.download
+      - 🇯🇵-日本-bgroup.node4.v.nodelist-gfwairport.download
+      - 🇯🇵-日本-jp.333210.xyz
+      - 🇯🇵-日本-jp04-vm0.entry.rwesdhytjuftyhdafsdgfrh.club
+      - 🇯🇵-日本-jp1.wanss.win
+      - 🇯🇵-日本-jp1.wumaojichang.ml
+      - 🇯🇵-日本-jp3.wumaojichang.ml
+      - 🇯🇵-日本-jptws.hotfun.buzz
+      - 🇯🇵-日本-urgjp.hotfun.buzz
+      - 🇯🇵-日本-v31.idcloudhost.de
+      - 🇯🇵-日本-zfsp1.mayiyun.shop
+      - 🇭🇰-香港-154.208.10.62
+      - 🇭🇰-香港-159.100.206.88
+      - 🇭🇰-香港-165.154.5.235
+      - 🇭🇰-香港-18.166.58.46
+      - 🇺🇸-美国-152.228.191.232
+      - '-美洲地区-173.205.94.4'
+      - 🇺🇸-美国加利福尼亚州硅谷-43.153.4.246
+      - 🇺🇸-美国加利福尼亚州硅谷-43.154.34.49
+      - 🇺🇸-美国加利福尼亚州硅谷-tx-xg-2.ienai.xin
+      - 🇺🇸-美国加利福尼亚州硅谷-tchk1.zhangxuan.best
+      - 🇺🇸-美国加利福尼亚州硅谷-tchk3.zhangxuan.best
+      - 🇺🇸-美国加利福尼亚州洛杉矶-41.216.177.148
+      - 🇺🇸-美国加利福尼亚州洛杉矶-us-ca1.qwqjsq.top
+      - 🇺🇸-美国加利福尼亚州洛杉矶-us1.lolvps.xyz
+      - 🇺🇸-美国弗吉尼亚州文特山农场-usv-4.openv2ray.com
+      -     🇺🇸-美国-00000000000000000000000000000000000000000000000000000000000013a.rui77.com
+      -     🇺🇸-美国-00000000000000000000000000000000000000000000000000000000000026a.rui77.com
+      -     🇺🇸-美国-00000000000000000000000000000000000000000000000000000000000039a.rui77.com
+      - 🇺🇸-美国-141.193.213.21
+      - 🇺🇸-美国-15.235.147.186
+      - 🇺🇸-美国-15.235.163.180
+      - 🇺🇸-美国-150.230.199.177
+      - 🇺🇸-美国-152.67.196.3
+      - 🇺🇸-美国-152.67.223.187
+      - 🇺🇸-美国-152.70.88.47
+      - 🇨🇳-加拿大-tw.mayiyun.shop
+      - 🇺🇸-美国-172.64.94.238
+      - 🇩🇪-德国-47.254.175.195
+      - 🇫🇷[10-30]-🇫🇷-法国-001-62.210.254.72
+      - '-亚太地区-103.186.149.132'
+      - '-亚太地区-103.186.149.242'
+      - '-亚太地区-103.186.149.220'
+      - '-亚太地区-1114hk.fans8.xyz'
+      - 🇭🇰-亚太地区-hk-01.proxyvip.top
+      - '-亚太地区-vietnam.hn14.shopvpn.net'
+      - '-亚太地区-vn1.v2-ray.com'
+      - 🇧🇷-巴西-138.118.175.28
+      - '-本机地址-V104.bgpnet.top'
+      - '-本机地址-cf.fovi.tk'
+      - '-本机地址-dlszl.hotfun.buzz'
+      - '-本机地址-hkaz7.xmrth-node.xyz'
+      - '-本机地址-jp02.henet.cyou'
+      - '-本机地址-jpaws006.xmrth-node.xyz'
+      - '-本机地址-jpaz2.xmrth-node.xyz'
+      - '-本机地址-jplin005.xmrth-node.xyz'
+      - 🇵🇭-菲律宾-ph1.vpnjantit.com
+      - 🇻🇳-越南-0001.hcm.genzpn.com
+      - '-非洲地区-102.37.157.62'
+      - 🇲🇾-马来西亚-my2.vpnjantit.com
       - 香港亚马逊-1号
       - 香港HKT-江移|解锁流媒体
       - 香港HKIX-江移|解锁流媒体
@@ -755,79 +1596,6 @@ proxy-groups:
       - 【美国】峰值1000M-NetFlix解锁
       - 【纽约】峰值1000MNetFlix解锁
       - 卢森堡
-      - default_name_1
-      - default_name_2
-      - default_name_3
-      - _1
-      - _2
-      - _3
-      - trojan.wefuckgfw.tk:443_1
-      - trojan.wefuckgfw.tk:443_2
-      - trojan.wefuckgfw.tk:443_3
-      - TW台湾(www.lcr189.com)
-      - TW+台湾(www.lcr189.com)
-      - UK英国(www.lcr189.com)_1
-      - UK英国(www.lcr189.com)_2
-      - UK英国(www.lcr189.com)_3
-      - UK英国(www.lcr189.com)_4
-      - UK英国(www.lcr189.com)_5
-      - US美国(www.lcr189.com)_1
-      - US美国(www.lcr189.com)_2
-      - US美国(www.lcr189.com)_3
-      - US美国(www.lcr189.com)_4
-      - US美国(www.lcr189.com)_5
-      - US美国(www.lcr189.com)_6
-      - US美国(www.lcr189.com)_7
-      - US美国(www.lcr189.com)_8
-      - US美国(www.lcr189.com)_9
-      - US美国(www.lcr189.com)_10
-      - US美国(www.lcr189.com)_11
-      - US美国(www.lcr189.com)_12
-      - US美国(www.lcr189.com)_13
-      - US美国(www.lcr189.com)_14
-      - US+美国(www.lcr189.com)
-      - US美国(www.lcr189.com)_15
-      - US美国(www.lcr189.com)_16
-      - US美国(www.lcr189.com)_17
-      - VN越南(www.lcr189.com)_1
-      - VN越南(www.lcr189.com)_2
-      - _RU_俄罗斯联邦->🇳🇱_NL_荷兰
-      - CA+加拿大(www.lcr189.com)_1
-      - CA+加拿大(www.lcr189.com)_2
-      - CN中国北京(www.lcr189.com)
-      - CN中国山东(www.lcr189.com)
-      - DE德国(www.lcr189.com)_1
-      - DE德国(www.lcr189.com)_2
-      - DE德国(www.lcr189.com)_3
-      - DE德国(www.lcr189.com)_4
-      - FR法国(www.lcr189.com)_1
-      - FR法国(www.lcr189.com)_2
-      - FR法国(www.lcr189.com)_3
-      - FR法国(www.lcr189.com)_4
-      - HK香港(www.lcr189.com)_1
-      - HK+香港(www.lcr189.com)_1
-      - HK香港(www.lcr189.com)_2
-      - HK香港(www.lcr189.com)_3
-      - HK+香港(www.lcr189.com)_2
-      - HK+香港(www.lcr189.com)_3
-      - IN印度(www.lcr189.com)
-      - IR伊朗(www.lcr189.com)
-      - KR韩国(www.lcr189.com)_1
-      - KR韩国(www.lcr189.com)_2
-      - KR韩国(www.lcr189.com)_3
-      - KR+韩国(www.lcr189.com)_1
-      - KR+韩国(www.lcr189.com)_2
-      - NL荷兰(www.lcr189.com)_1
-      - NL荷兰(www.lcr189.com)_2
-      - PL波兰(www.lcr189.com)
-      - RU俄罗斯(www.lcr189.com)
-      - SG新加坡(www.lcr189.com)_1
-      - SG+新加坡(www.lcr189.com)_1
-      - SG+新加坡(www.lcr189.com)_2
-      - SG新加坡(www.lcr189.com)_2
-      - SG新加坡(www.lcr189.com)_3
-      - SG新加坡(www.lcr189.com)10_1
-      - SG新加坡(www.lcr189.com)10_2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
