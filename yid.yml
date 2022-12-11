@@ -5,36 +5,36 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vless","name":"iyd_1","server":"xray.wefuckgfw.ga","port":2053,"uuid":"1db54be0-b3b3-456b-8f2b-7c581ecb8779","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/LTJmcoEu/"}}
-  - {"type":"vless","name":"iyd_2","server":"xray.wefuckgfw.ga","port":2053,"uuid":"1009efef-0086-438b-9866-62bbb9349f72","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/LTJmcoEu/"}}
-  - {"type":"vless","name":"iyd_3","server":"xray.wefuckgfw.ga","port":2053,"uuid":"9164f21c-e925-4eb6-a942-3e0f9231c564","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/LTJmcoEu/"}}
-  - {"type":"vless","name":"iyd_4","server":"xray.wefuckgfw.ga","port":2053,"uuid":"a21977cd-e839-497a-b93d-00c8c7fc8345","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/LTJmcoEu/"}}
-  - {"type":"vless","name":"iyd_5","server":"xray.wefuckgfw.ga","port":2053,"uuid":"ff7266e6-98d2-4bd1-9cc6-17e77edd880b","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/LTJmcoEu/"}}
-  - {"type":"vless","name":"iyd_🇺🇸_6","server":"xray.wefuckgfw.gq","port":2083,"uuid":"e377f3db-c195-4b01-92b5-419a7ebbb6f4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/1HalwuN2/"}}
-  - {"type":"vless","name":"iyd_🇺🇸_7","server":"xray.wefuckgfw.gq","port":2083,"uuid":"ab4f92d1-99ec-454d-9a59-c4b03b98351b","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/1HalwuN2/"}}
-  - {"type":"vless","name":"iyd_🇺🇸_8","server":"xray.wefuckgfw.gq","port":2083,"uuid":"590ab9a2-32f4-4c2b-8bf7-88c7115de330","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/1HalwuN2/"}}
-  - {"type":"vless","name":"iyd_🇺🇸_9","server":"xray.wefuckgfw.gq","port":2083,"uuid":"c55fcdd1-cb2a-4d92-bfd8-6eb1fe6b20d7","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/1HalwuN2/"}}
-  - {"type":"vless","name":"iyd_🇺🇸_10","server":"xray.wefuckgfw.gq","port":2083,"uuid":"6490a7b5-0b70-4239-b55b-23f15b03a2ef","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/1HalwuN2/"}}
-  - {"type":"trojan","name":"iyd_🇺🇸_11","server":"trojan.wefuckgfw.ga","port":443,"password":"idHgKOnv","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"iyd_🇺🇸_12","server":"trojan.wefuckgfw.ga","port":443,"password":"RVTzCaWi","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"iyd_🇺🇸_13","server":"trojan.wefuckgfw.ga","port":443,"password":"eGtLVDMl","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"iyd_🇺🇸_14","server":"trojan.wefuckgfw.ga","port":443,"password":"JRWAzNWP","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"iyd_🇺🇸_15","server":"trojan.wefuckgfw.ga","port":443,"password":"bkcbpjIh","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"iyd_🇺🇸_16","server":"trojan.wefuckgfw.gq","port":443,"password":"KQnATYMU","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"iyd_🇺🇸_17","server":"trojan.wefuckgfw.gq","port":443,"password":"vYYcMOKq","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"iyd_🇺🇸_18","server":"trojan.wefuckgfw.gq","port":443,"password":"XVuGTaCD","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"iyd_🇺🇸_19","server":"trojan.wefuckgfw.gq","port":443,"password":"WBhMOEgB","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"iyd_🇺🇸_20","server":"trojan.wefuckgfw.gq","port":443,"password":"AAAyeMCH","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"iyd_21","ws-opts":{"path":"/5coJKfAp/"},"server":"v2ray.wefuckgfw.ga","port":2083,"uuid":"7f590374-5188-44f0-87d3-d3e1737ad308","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"iyd_22","ws-opts":{"path":"/5coJKfAp/"},"server":"v2ray.wefuckgfw.ga","port":2083,"uuid":"72066e7d-f998-47dc-bfa2-739ca44f377f","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"iyd_23","ws-opts":{"path":"/5coJKfAp/"},"server":"v2ray.wefuckgfw.ga","port":2083,"uuid":"f59afc3e-78d6-4f98-8c3e-fef45c5adcfa","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"iyd_24","ws-opts":{"path":"/5coJKfAp/"},"server":"v2ray.wefuckgfw.ga","port":2083,"uuid":"affd957d-43bb-4fda-82a4-23def2f6fa1b","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"iyd_25","ws-opts":{"path":"/5coJKfAp/"},"server":"v2ray.wefuckgfw.ga","port":2083,"uuid":"abafbf5c-48ba-49bf-9411-166ba9dedc52","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"iyd_26","ws-opts":{"path":"/Nsy6wz4A/"},"server":"v2ray.wefuckgfw.gq","port":2096,"uuid":"0621343f-0abf-44b3-b6f3-cea13e48e479","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"iyd_27","ws-opts":{"path":"/Nsy6wz4A/"},"server":"v2ray.wefuckgfw.gq","port":2096,"uuid":"70df68b4-bc0b-430f-ba25-0f1969f1d81d","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"iyd_28","ws-opts":{"path":"/Nsy6wz4A/"},"server":"v2ray.wefuckgfw.gq","port":2096,"uuid":"55ca1eaf-636e-44ee-9301-9f6e19867e65","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"iyd_29","ws-opts":{"path":"/Nsy6wz4A/"},"server":"v2ray.wefuckgfw.gq","port":2096,"uuid":"f19534a1-b46f-482c-885f-f55794b3e972","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"iyd_30","ws-opts":{"path":"/Nsy6wz4A/"},"server":"v2ray.wefuckgfw.gq","port":2096,"uuid":"da4b6a82-733a-4941-a135-973231fe4ea6","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vless","name":"iyd_1","server":"xray.wefuckgfw.gq","port":2083,"uuid":"a25001ef-3008-4f1b-ac88-e4e913d589f3","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/LNiDkcUo/"}}
+  - {"type":"vless","name":"iyd_2","server":"xray.wefuckgfw.gq","port":2083,"uuid":"67599cfd-faa2-4085-a504-61ea88baa51f","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/LNiDkcUo/"}}
+  - {"type":"vless","name":"iyd_3","server":"xray.wefuckgfw.gq","port":2083,"uuid":"1597341f-845a-4b0d-add8-e130631a65b3","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/LNiDkcUo/"}}
+  - {"type":"vless","name":"iyd_4","server":"xray.wefuckgfw.gq","port":2083,"uuid":"c0a785a3-5308-4ab8-ab13-2cfc921c3d67","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/LNiDkcUo/"}}
+  - {"type":"vless","name":"iyd_5","server":"xray.wefuckgfw.gq","port":2083,"uuid":"24fb49f8-b964-40d5-89cb-8758c5846206","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/LNiDkcUo/"}}
+  - {"type":"vless","name":"iyd_🇺🇸_6","server":"xray.wefuckgfw.ga","port":2053,"uuid":"d82ad8c7-da80-4170-8941-590581dbf072","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/IhYyKgwE/"}}
+  - {"type":"vless","name":"iyd_🇺🇸_7","server":"xray.wefuckgfw.ga","port":2053,"uuid":"f2aa42a2-b5cd-403e-be2e-58f4a65daec4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/IhYyKgwE/"}}
+  - {"type":"vless","name":"iyd_🇺🇸_8","server":"xray.wefuckgfw.ga","port":2053,"uuid":"7a44169f-ae91-4457-9d75-8befd14a8911","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/IhYyKgwE/"}}
+  - {"type":"vless","name":"iyd_🇺🇸_9","server":"xray.wefuckgfw.ga","port":2053,"uuid":"a20bb149-1435-419e-9b95-4d9d5303924c","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/IhYyKgwE/"}}
+  - {"type":"vless","name":"iyd_🇺🇸_10","server":"xray.wefuckgfw.ga","port":2053,"uuid":"eaecc84a-e95e-490c-bd41-f06ad81f34e3","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/IhYyKgwE/"}}
+  - {"type":"trojan","name":"iyd_🇺🇸_11","server":"trojan.wefuckgfw.gq","port":443,"password":"KQnATYMU","udp":true,"skip-cert-verify":true}
+  - {"type":"vless","name":"iyd_🇺🇸_12","server":"107.148.27.129","port":29740,"uuid":"6a732814-da00-443d-8e8d-6751b29cee7a","skip-cert-verify":true}
+  - {"type":"trojan","name":"iyd_🇺🇸_13","server":"trojan.wefuckgfw.gq","port":443,"password":"XVuGTaCD","udp":true,"skip-cert-verify":true}
+  - {"type":"vless","name":"iyd_🇺🇸_14","server":"107.148.27.129","port":29740,"uuid":"ffd8595c-0e82-4223-b3ab-34f93918fabc","skip-cert-verify":true}
+  - {"type":"trojan","name":"iyd_🇺🇸_15","server":"trojan.wefuckgfw.gq","port":443,"password":"AAAyeMCH","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"iyd_🇺🇸_16","server":"trojan.wefuckgfw.ga","port":443,"password":"idHgKOnv","udp":true,"skip-cert-verify":true}
+  - {"type":"vless","name":"iyd_🇺🇸_17","server":"trojan.wefuckgfw.ga","port":2586,"uuid":"0f8eab4c-4d27-44fa-bf1f-21d2dd787d74","skip-cert-verify":true}
+  - {"type":"trojan","name":"iyd_🇺🇸_18","server":"trojan.wefuckgfw.ga","port":443,"password":"eGtLVDMl","udp":true,"skip-cert-verify":true}
+  - {"type":"vless","name":"iyd_🇺🇸_19","server":"trojan.wefuckgfw.ga","port":2586,"uuid":"e9dd7934-4da6-4da6-8de3-5f3d88f93b9a","skip-cert-verify":true}
+  - {"type":"trojan","name":"iyd_🇺🇸_20","server":"trojan.wefuckgfw.ga","port":443,"password":"bkcbpjIh","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"iyd_🇺🇸_21","ws-opts":{"path":"/aiHUGq4P/"},"server":"v2ray.wefuckgfw.gq","port":"2083","uuid":"a7e7a07c-d67e-42b8-bcba-952886d31b1b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"iyd_🇺🇸_22","ws-opts":{"path":"/aiHUGq4P/"},"server":"v2ray.wefuckgfw.gq","port":"2083","uuid":"e55b0dfd-96c9-4c9f-8b08-ecadcafdcf96","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"iyd_🇺🇸_23","ws-opts":{"path":"/aiHUGq4P/"},"server":"v2ray.wefuckgfw.gq","port":"2083","uuid":"189feaf4-2a87-4593-a466-0faf1c56e506","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"iyd_🇺🇸_24","ws-opts":{"path":"/aiHUGq4P/"},"server":"v2ray.wefuckgfw.gq","port":"2083","uuid":"b10d0787-e8f0-4250-b4d4-e2689b5ecc5e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"iyd_🇺🇸_25","ws-opts":{"path":"/aiHUGq4P/"},"server":"v2ray.wefuckgfw.gq","port":"2083","uuid":"f317e227-67eb-41a4-a4cb-083493fc48c9","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"iyd_26","ws-opts":{"path":"/DQsafRJn/"},"server":"v2ray.wefuckgfw.ga","port":"2053","uuid":"8947fbe5-c1c7-4716-8564-2092ce776f92","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"iyd_27","ws-opts":{"path":"/DQsafRJn/"},"server":"v2ray.wefuckgfw.ga","port":"2053","uuid":"2c23eb31-1133-4807-818e-484d9a473b9b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"iyd_28","ws-opts":{"path":"/DQsafRJn/"},"server":"v2ray.wefuckgfw.ga","port":"2053","uuid":"ce02a636-88ac-4c29-963d-e09961ec3b3d","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"iyd_29","ws-opts":{"path":"/DQsafRJn/"},"server":"v2ray.wefuckgfw.ga","port":"2053","uuid":"ab323ed9-dda5-4feb-9f17-c77c7fd811b6","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"iyd_30","ws-opts":{"path":"/DQsafRJn/"},"server":"v2ray.wefuckgfw.ga","port":"2053","uuid":"ce3f0dd3-8a04-4daa-9416-e67c5d42083a","alterId":"0","cipher":"auto","network":"ws","tls":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -61,11 +61,11 @@ proxy-groups:
       - iyd_🇺🇸_18
       - iyd_🇺🇸_19
       - iyd_🇺🇸_20
-      - iyd_21
-      - iyd_22
-      - iyd_23
-      - iyd_24
-      - iyd_25
+      - iyd_🇺🇸_21
+      - iyd_🇺🇸_22
+      - iyd_🇺🇸_23
+      - iyd_🇺🇸_24
+      - iyd_🇺🇸_25
       - iyd_26
       - iyd_27
       - iyd_28
@@ -97,11 +97,11 @@ proxy-groups:
       - iyd_🇺🇸_18
       - iyd_🇺🇸_19
       - iyd_🇺🇸_20
-      - iyd_21
-      - iyd_22
-      - iyd_23
-      - iyd_24
-      - iyd_25
+      - iyd_🇺🇸_21
+      - iyd_🇺🇸_22
+      - iyd_🇺🇸_23
+      - iyd_🇺🇸_24
+      - iyd_🇺🇸_25
       - iyd_26
       - iyd_27
       - iyd_28
@@ -133,11 +133,11 @@ proxy-groups:
       - iyd_🇺🇸_18
       - iyd_🇺🇸_19
       - iyd_🇺🇸_20
-      - iyd_21
-      - iyd_22
-      - iyd_23
-      - iyd_24
-      - iyd_25
+      - iyd_🇺🇸_21
+      - iyd_🇺🇸_22
+      - iyd_🇺🇸_23
+      - iyd_🇺🇸_24
+      - iyd_🇺🇸_25
       - iyd_26
       - iyd_27
       - iyd_28
@@ -168,11 +168,11 @@ proxy-groups:
       - iyd_🇺🇸_18
       - iyd_🇺🇸_19
       - iyd_🇺🇸_20
-      - iyd_21
-      - iyd_22
-      - iyd_23
-      - iyd_24
-      - iyd_25
+      - iyd_🇺🇸_21
+      - iyd_🇺🇸_22
+      - iyd_🇺🇸_23
+      - iyd_🇺🇸_24
+      - iyd_🇺🇸_25
       - iyd_26
       - iyd_27
       - iyd_28
@@ -203,11 +203,11 @@ proxy-groups:
       - iyd_🇺🇸_18
       - iyd_🇺🇸_19
       - iyd_🇺🇸_20
-      - iyd_21
-      - iyd_22
-      - iyd_23
-      - iyd_24
-      - iyd_25
+      - iyd_🇺🇸_21
+      - iyd_🇺🇸_22
+      - iyd_🇺🇸_23
+      - iyd_🇺🇸_24
+      - iyd_🇺🇸_25
       - iyd_26
       - iyd_27
       - iyd_28
@@ -238,11 +238,11 @@ proxy-groups:
       - iyd_🇺🇸_18
       - iyd_🇺🇸_19
       - iyd_🇺🇸_20
-      - iyd_21
-      - iyd_22
-      - iyd_23
-      - iyd_24
-      - iyd_25
+      - iyd_🇺🇸_21
+      - iyd_🇺🇸_22
+      - iyd_🇺🇸_23
+      - iyd_🇺🇸_24
+      - iyd_🇺🇸_25
       - iyd_26
       - iyd_27
       - iyd_28
@@ -290,11 +290,11 @@ proxy-groups:
       - iyd_🇺🇸_18
       - iyd_🇺🇸_19
       - iyd_🇺🇸_20
-      - iyd_21
-      - iyd_22
-      - iyd_23
-      - iyd_24
-      - iyd_25
+      - iyd_🇺🇸_21
+      - iyd_🇺🇸_22
+      - iyd_🇺🇸_23
+      - iyd_🇺🇸_24
+      - iyd_🇺🇸_25
       - iyd_26
       - iyd_27
       - iyd_28
